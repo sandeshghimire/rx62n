@@ -1,0 +1,3 @@
+-cpu=rx600
+-output="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ADC2\ADC2\Debug\ADC2.lib"
+-head=runtime,stdio,stdlib
