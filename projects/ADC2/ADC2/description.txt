@@ -1,2 +1,0 @@
-Watchdog Timer
-The application demonstrates usage of the WDT unit by varying the rate in which the timer is reset, allowing a WDT overflow to occur.
