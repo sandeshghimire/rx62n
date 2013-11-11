@@ -1,13 +1,13 @@
 [HIMDBVersion]
 2.0
 [DATABASE_VERSION]
-"2.6"
+"2.8" 
 [PROJECT_DETAILS]
-"ADC2" "C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ADC2\ADC2" "C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ADC2\ADC2\ADC2.hwp" "RX" "Renesas RX Standard" "Application" 
+"ADC2" "C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ADC2\ADC2" "C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ADC2\ADC2\ADC2.hwp" "RX" "Renesas RX Standard" "Application" "" "" 
 [INFORMATION]
 "No project information available" 
 [TOOL_CHAIN]
-"Renesas RX Standard Toolchain" "1.2.0.0"
+"Renesas RX Standard Toolchain" "1.2.0.0" 
 [CONFIGURATIONS]
 "Debug" "C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ADC2\ADC2\Debug" 
 [BUILD_PHASES]

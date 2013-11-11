@@ -1,0 +1,5 @@
+"C:\Users\Sandesh\Documents\GitHub\rx62n\projects\FreeRTOS\FreeRTOS\freertos\source\portable\renesas\rx600\port_asm.src"
+-cpu=rx600
+-debug
+-output="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\FreeRTOS\FreeRTOS\Debug\port_asm.obj"
+-nologo

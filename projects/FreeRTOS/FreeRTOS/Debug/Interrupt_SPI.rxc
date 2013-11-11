@@ -1,0 +1,11 @@
+-cpu=rx600
+-lang=c
+-include="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\FreeRTOS\FreeRTOS"
+-include="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\FreeRTOS\FreeRTOS\RPDL"
+-include="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\FreeRTOS\FreeRTOS\FreeRTOS"
+-include="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\FreeRTOS\FreeRTOS\FreeRTOS\Source\include"
+-include="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\FreeRTOS\FreeRTOS\FreeRTOS\Source\portable\Renesas\RX600"
+-output=obj="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\FreeRTOS\FreeRTOS\Debug\Interrupt_SPI.obj"
+-debug
+"C:\Users\Sandesh\Documents\GitHub\rx62n\projects\FreeRTOS\FreeRTOS\RPDL\Interrupt_SPI.c"
+-nologo

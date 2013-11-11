@@ -1,0 +1,3 @@
+-cpu=rx600
+-output="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\FreeRTOS\FreeRTOS\Debug\FreeRTOS.lib"
+-head=runtime,stdio,stdlib,string

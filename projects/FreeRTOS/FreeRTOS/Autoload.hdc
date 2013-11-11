@@ -1,0 +1,5 @@
+erase
+cow build
+build WAIT
+la
+reset
