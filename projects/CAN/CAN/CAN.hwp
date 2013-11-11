@@ -1,13 +1,13 @@
 [HIMDBVersion]
 2.0
 [DATABASE_VERSION]
-"2.6"
+"2.8" 
 [PROJECT_DETAILS]
-"CAN" "C:\Users\Sandesh\Documents\GitHub\rx62n\projects\CAN\CAN" "C:\Users\Sandesh\Documents\GitHub\rx62n\projects\CAN\CAN\CAN.hwp" "RX" "Renesas RX Standard" "Application" 
+"CAN" "C:\Users\Sandesh\Documents\GitHub\rx62n\projects\CAN\CAN" "C:\Users\Sandesh\Documents\GitHub\rx62n\projects\CAN\CAN\CAN.hwp" "RX" "Renesas RX Standard" "Application" "" "" 
 [INFORMATION]
 "No project information available" 
 [TOOL_CHAIN]
-"Renesas RX Standard Toolchain" "1.2.0.0"
+"Renesas RX Standard Toolchain" "1.2.0.0" 
 [CONFIGURATIONS]
 "Debug" "C:\Users\Sandesh\Documents\GitHub\rx62n\projects\CAN\CAN\Debug" 
 [BUILD_PHASES]
