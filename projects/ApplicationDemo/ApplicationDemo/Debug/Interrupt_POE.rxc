@@ -1,0 +1,8 @@
+-cpu=rx600
+-lang=c
+-include="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ApplicationDemo\ApplicationDemo"
+-include="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ApplicationDemo\ApplicationDemo\RPDL"
+-output=obj="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ApplicationDemo\ApplicationDemo\Debug\Interrupt_POE.obj"
+-debug
+"C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ApplicationDemo\ApplicationDemo\RPDL\Interrupt_POE.c"
+-nologo

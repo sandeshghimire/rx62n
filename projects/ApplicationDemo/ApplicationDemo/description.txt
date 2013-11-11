@@ -1,0 +1,2 @@
+Application Project
+Project including all debugger configuration and RPDL libraries, but no user code.
