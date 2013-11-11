@@ -1,0 +1,10 @@
+-cpu=rx600
+-lang=c99
+-include="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\CAN\CAN\src\..\src"
+-define=NOT_USE_CAN_POLL=1,NOT_DEBUG=1
+-output=obj="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\CAN\CAN\Debug\sbrk.obj"
+-debug
+-listfile="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\CAN\CAN\Debug\sbrk.lst"
+-show=source
+"C:\Users\Sandesh\Documents\GitHub\rx62n\projects\CAN\CAN\src\sbrk.c"
+-nologo

@@ -1,0 +1,4 @@
+-cpu=rx600
+-output="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\CAN\CAN\Debug\CAN.lib"
+-lang=c99
+-head=runtime,stdio,stdlib,string

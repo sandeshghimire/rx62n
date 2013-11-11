@@ -1,0 +1,2 @@
+CAN
+Demonstrates use of the CAN peripheral
