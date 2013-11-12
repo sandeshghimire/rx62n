@@ -1,0 +1,8 @@
+-cpu=rx600
+-lang=c
+-include="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\UART\UART"
+-include="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\UART\UART\RPDL"
+-output=obj="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\UART\UART\Debug\Interrupt_TMR.obj"
+-debug
+"C:\Users\Sandesh\Documents\GitHub\rx62n\projects\UART\UART\RPDL\Interrupt_TMR.c"
+-nologo

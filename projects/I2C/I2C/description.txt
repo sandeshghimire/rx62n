@@ -1,0 +1,2 @@
+IIC Master
+The application demonstrates use of the I2C in master mode by reading the accelerometer and thermal sensor.

@@ -1,0 +1,4 @@
+-cpu=rx600
+-output="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\3AXIS.lib"
+-optimize=0
+-head=runtime,math,stdio,stdlib

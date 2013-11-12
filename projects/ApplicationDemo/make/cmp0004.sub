@@ -1,0 +1,8 @@
+-cpu=rx600
+-lang=c
+-include="..\ApplicationDemo"
+-include="..\ApplicationDemo\RPDL"
+-output=obj="..\ApplicationDemo\Debug\Interrupt_CMT.obj"
+-debug
+"..\ApplicationDemo\RPDL\Interrupt_CMT.c"
+-nologo

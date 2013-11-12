@@ -1,0 +1,2 @@
+FreeRTOS Demo
+Basic FreeRTOS project with two tasks communicating via a queue.

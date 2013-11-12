@@ -1,0 +1,99 @@
+Optimizing Linkage Editor (V.10.02.00.000)        11-Nov-2013 22:06:10
+
+*** Options ***
+
+-subcommand=C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ucOSII\ucOSII\Debug\ucOSII.hlk
+-noprelink
+-rom=D=R,D_1=R_1,D_2=R_2
+-nomessage
+-list="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ucOSII\ucOSII\Debug\ucOSII.map"
+-nooptimize
+-start=B_1,R_1,B_2,R_2,B,R,SU,SI/010,C_1,C_2,C,L*,C$*,D*,PResetPRG,P,W*/0FFFC0000,FIXEDVECT/0FFFFFFD0
+-nologo
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ucOSII\ucOSII\Debug\croutine.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ucOSII\ucOSII\Debug\dbsct.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ucOSII\ucOSII\Debug\heap_3.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ucOSII\ucOSII\Debug\hwsetup.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ucOSII\ucOSII\Debug\Interrupt_ADC_10.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ucOSII\ucOSII\Debug\Interrupt_BSC.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ucOSII\ucOSII\Debug\Interrupt_CMT.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ucOSII\ucOSII\Debug\Interrupt_DMAC.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ucOSII\ucOSII\Debug\Interrupt_IIC.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ucOSII\ucOSII\Debug\Interrupt_INTC.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ucOSII\ucOSII\Debug\Interrupt_MTU2.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ucOSII\ucOSII\Debug\Interrupt_not_RPDL.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ucOSII\ucOSII\Debug\Interrupt_SCI.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ucOSII\ucOSII\Debug\Interrupt_SPI.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ucOSII\ucOSII\Debug\Interrupt_TMR.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ucOSII\ucOSII\Debug\Interrupt_WDT.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ucOSII\ucOSII\Debug\lcd.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ucOSII\ucOSII\Debug\list.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ucOSII\ucOSII\Debug\main.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ucOSII\ucOSII\Debug\port.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ucOSII\ucOSII\Debug\port_asm.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ucOSII\ucOSII\Debug\queue.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ucOSII\ucOSII\Debug\resetprg.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ucOSII\ucOSII\Debug\sbrk.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ucOSII\ucOSII\Debug\switch.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ucOSII\ucOSII\Debug\tasks.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ucOSII\ucOSII\Debug\YRDKRX62N_RSPI_API.obj"
+-library="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ucOSII\ucOSII\RPDL\RX62N_library.lib"
+-library="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ucOSII\ucOSII\GlyphLib_v2.lib"
+-library="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ucOSII\ucOSII\Debug\ucOSII.lib"
+-output="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ucOSII\ucOSII\Debug\ucOSII.abs"
+-end
+
+*** Error information ***
+
+*** Mapping List ***
+
+SECTION                            START      END         SIZE   ALIGN
+
+B_1
+                                  00000010  00000091        82   1
+R_1
+                                  00000092  000000e3        52   1
+B_2
+                                  000000e4  00000133        50   2
+R_2
+                                  00000134  00000135         2   2
+B
+                                  00000138  00001573      143c   4
+R
+                                  00001574  00001c73       700   4
+SU
+                                  00001c74  00001f73       300   4
+SI
+                                  00001f74  00002073       100   4
+C_1
+                                  fffc0000  fffc0afe       aff   1
+C_2
+                                  fffc0b00  fffc0d17       218   2
+C
+                                  fffc0d18  fffc0db3        9c   4
+L
+                                  fffc0db4  fffc0e90        dd   4
+C$DSEC
+                                  fffc0e94  fffc0eb7        24   4
+C$BSEC
+                                  fffc0eb8  fffc0ecf        18   4
+C$VECT
+                                  fffc0ed0  fffc12cf       400   4
+D
+                                  fffc12d0  fffc19cf       700   4
+D_2
+                                  fffc19d0  fffc19d1         2   2
+D_1
+                                  fffc19d2  fffc1a23        52   1
+PResetPRG
+                                  fffc1a24  fffc1a6e        4b   1
+P
+                                  fffc1a6f  fffc8f68      74fa   1
+W_1
+                                  fffc8f69  fffc8f8a        22   1
+W_2
+                                  fffc8f8c  fffc8f9f        14   2
+W
+                                  fffc8fa0  fffc8fa0         0   4
+FIXEDVECT
+                                  ffffffd0  ffffffff        30   4

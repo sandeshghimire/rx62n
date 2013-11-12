@@ -1,0 +1,40 @@
+noprelink
+rom D=R,D_1=R_1,D_2=R_2
+nomessage 
+list "..\ApplicationDemo\Debug\ApplicationDemo.map"
+nooptimize
+-start=B_1,R_1,B_2,R_2,B,R,SU,SI/010,C_1,C_2,C,L*,C$*,D*,PResetPRG,P,W*/0FFFC0000,FIXEDVECT/0FFFFFFD0
+nologo
+-input="..\ApplicationDemo\Debug\dbsct.obj"
+-input="..\ApplicationDemo\Debug\hwsetup.obj"
+-input="..\ApplicationDemo\Debug\Interrupt_ADC_10.obj"
+-input="..\ApplicationDemo\Debug\Interrupt_ADC_12.obj"
+-input="..\ApplicationDemo\Debug\Interrupt_BSC.obj"
+-input="..\ApplicationDemo\Debug\Interrupt_CMT.obj"
+-input="..\ApplicationDemo\Debug\Interrupt_DMAC.obj"
+-input="..\ApplicationDemo\Debug\Interrupt_EXDMAC.obj"
+-input="..\ApplicationDemo\Debug\Interrupt_IIC.obj"
+-input="..\ApplicationDemo\Debug\Interrupt_INTC.obj"
+-input="..\ApplicationDemo\Debug\Interrupt_MTU2.obj"
+-input="..\ApplicationDemo\Debug\Interrupt_not_RPDL.obj"
+-input="..\ApplicationDemo\Debug\Interrupt_POE.obj"
+-input="..\ApplicationDemo\Debug\Interrupt_RTC.obj"
+-input="..\ApplicationDemo\Debug\Interrupt_SCI.obj"
+-input="..\ApplicationDemo\Debug\Interrupt_SPI.obj"
+-input="..\ApplicationDemo\Debug\Interrupt_TMR.obj"
+-input="..\ApplicationDemo\Debug\Interrupt_WDT.obj"
+-input="..\ApplicationDemo\Debug\lcd.obj"
+-input="..\ApplicationDemo\Debug\main.obj"
+-input="..\ApplicationDemo\Debug\resetprg.obj"
+-input="..\ApplicationDemo\Debug\sbrk.obj"
+-input="..\ApplicationDemo\Debug\switch.obj"
+-input="..\ApplicationDemo\Debug\YRDKRX62N_RSPI_API.obj"
+-library="..\ApplicationDemo\RPDL\RX62N_library.lib"
+-library="..\ApplicationDemo\Debug\ApplicationDemo.lib"
+-library="..\ApplicationDemo\GlyphLib_v2.lib"
+-output="..\ApplicationDemo\Debug\ApplicationDemo.abs"
+end
+-input="..\ApplicationDemo\Debug\ApplicationDemo.abs"
+form stype
+output "..\ApplicationDemo\Debug\ApplicationDemo.mot"
+-exit

@@ -1,0 +1,2836 @@
+Optimizing Linkage Editor (V.10.02.00.000)        10-Nov-2013 23:00:34
+
+*** Options ***
+
+-subcommand=C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\3AXIS.hlk
+-noprelink
+-rom=D=R,D_1=R_1,D_2=R_2
+-nomessage
+-list="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\3AXIS.map"
+-show=symbol,reference,xreference,total_size,vector
+-nooptimize
+-start=B_1,R_1,B_2,R_2,B,R,SU,SI/010,C_1,C_2,C,L*,C$*,D*,PResetPRG,P,W*/0FFFC0000,FIXEDVECT/0FFFFFFD0
+-nologo
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\Ball.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\ball_fpu.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\dbsct.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\hwsetup.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\id_code.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\interrupt_adc_10.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\interrupt_adc_12.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\interrupt_bsc.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\interrupt_cmt.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\interrupt_dmac.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\interrupt_iic.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\interrupt_intc.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\Interrupt_MTU2.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\interrupt_not_rpdl.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\interrupt_poe.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\interrupt_sci.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\interrupt_spi.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\interrupt_tmr.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\interrupt_wdt.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\lcd_graphics.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\main.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\resetprg.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\sbrk.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\sprite_images.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\switch.obj"
+-library="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\RPDL\RX62N_library.lib"
+-library="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\3AXIS.lib"
+-output="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\3AXIS.abs"
+-end
+
+*** Error information ***
+
+*** Mapping List ***
+
+SECTION                            START      END         SIZE   ALIGN
+
+B_1
+                                  00000010  00000a10       a01   1
+R_1
+                                  00000a11  00000a61        51   1
+B_2
+                                  00000a62  00000ac7        66   2
+R_2
+                                  00000ac8  00000acb         4   2
+B
+                                  00000acc  00001243       778   4
+R
+                                  00001244  000012e3        a0   4
+SU
+                                  000012e4  000018e3       600   4
+SI
+                                  000018e4  000019e3       100   4
+$ADDR_B_15000
+                                  00015000  000153ff       400   1
+C_1
+                                  fffc0000  fffc0018        19   1
+C_2
+                                  fffc001a  fffc0041        28   2
+C
+                                  fffc0044  fffc005b        18   4
+L
+                                  fffc005c  fffc005f         4   4
+C$DSEC
+                                  fffc0060  fffc0083        24   4
+C$BSEC
+                                  fffc0084  fffc009b        18   4
+C$VECT
+                                  fffc009c  fffc049b       400   4
+D
+                                  fffc049c  fffc053b        a0   4
+D_2
+                                  fffc053c  fffc053f         4   2
+D_1
+                                  fffc0540  fffc0590        51   1
+PResetPRG
+                                  fffc0591  fffc05da        4a   1
+P
+                                  fffc05db  fffc80ba      7ae0   1
+W_1
+                                  fffc80bb  fffc813d        83   1
+W_2
+                                  fffc813e  fffc824b       10e   2
+W
+                                  fffc824c  fffc824c         0   4
+$ADDR_C_FFFFFFA0
+                                  ffffffa0  ffffffaf        10   1
+FIXEDVECT
+                                  ffffffd0  ffffffff        30   4
+
+*** Total Section Size ***
+
+RAMDATA SECTION:  00001dd4 Byte(s)
+ROMDATA SECTION:  0000075f Byte(s)
+PROGRAM SECTION:  00007b2a Byte(s)
+
+*** Symbol List ***
+
+SECTION=
+FILE=                               START        END    SIZE
+  SYMBOL                            ADDR        SIZE    INFO      COUNTS  OPT
+
+SECTION=B_1
+FILE=C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\lcd_graphics.obj
+                                  00000010  0000067f       670
+  _buffer
+                                  00000010       340   data ,g         1
+  _raster1
+                                  00000350       330   data ,g         2
+FILE=C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\main.obj
+                                  00000680  000009bf       340
+  _image_buffer
+                                  00000680       340   data ,g         1
+FILE=globals_ADC_10
+                                  000009c0  000009c1         2
+  _rpdl_adcsr0_copy
+                                  000009c0         1   data ,g         1
+  _rpdl_adcsr1_copy
+                                  000009c1         1   data ,g         1
+FILE=globals_ADC_12
+                                  000009c2  000009c2         1
+  _rpdl_adcsr_store
+                                  000009c2         1   data ,g         0
+FILE=globals_CMT
+                                  000009c3  000009c6         4
+  _rpdl_CMT_one_shot
+                                  000009c3         4   data ,g         5
+FILE=globals_IIC
+                                  000009c7  000009cf         9
+  _rpdl_IIC_stop
+                                  000009c7         1   data ,g         1
+  _rpdl_IIC_current_state
+                                  000009c8         1   data ,g         a
+  _rpdl_IIC_next_state
+                                  000009c9         1   data ,g         1
+  _rpdl_IIC_slave_address_lower
+                                  000009ca         1   data ,g         2
+  _rpdl_IIC_slave_address_upper
+                                  000009cb         1   data ,g         2
+  _rpdl_IIC_detected_address
+                                  000009cc         1   data ,g         1
+  _rpdl_IIC_rx_transfer_method
+                                  000009cd         1   data ,g         1
+  _rpdl_IIC_rx_dmac_channel
+                                  000009ce         1   data ,g         1
+  _rpdl_IIC_tx_dmac_channel
+                                  000009cf         1   data ,g         0
+FILE=globals_INTC
+                                  000009d0  000009d1         2
+  _rpdl_INTC_brk_command
+                                  000009d0         1   data ,g         5
+  _rpdl_INTC_brk_data8
+                                  000009d1         1   data ,g         4
+FILE=globals_MTU2
+                                  000009d2  000009d9         8
+  _rpdl_MTU2_tmdr_copy
+                                  000009d2         2   data ,g         2
+  _rpdl_MTU2_toer_copy
+                                  000009d4         2   data ,g         2
+  _rpdl_MTU2_tiorh_copy
+                                  000009d6         2   data ,g         2
+  _rpdl_MTU2_tiorl_copy
+                                  000009d8         2   data ,g         2
+FILE=globals_SCI
+                                  000009da  000009fc        23
+  _rpdl_SCI_tx_using_irq
+                                  000009da         7   data ,g         6
+  _rpdl_SCI_rx_using_irq
+                                  000009e1         7   data ,g         6
+  _rpdl_SCI_sync_simultaneous
+                                  000009e8         7   data ,g         0
+  _rpdl_SCI_MP_mode
+                                  000009ef         7   data ,g         6
+  _rpdl_SCI_MP_rx_stationID
+                                  000009f6         7   data ,g         6
+FILE=globals_SPI
+                                  000009fd  00000a04         8
+  _rpdl_SPI_method
+                                  000009fd         2   data ,g         6
+  _rpdl_SPI_tx_frame_counter
+                                  000009ff         2   data ,g         9
+  _rpdl_SPI_frame_total
+                                  00000a01         2   data ,g         5
+  _rpdl_SPI_rx_frame_counter
+                                  00000a03         2   data ,g         9
+FILE=globals_TMR
+                                  00000a05  00000a10         c
+  _rpdl_TMR_tcsr_setting
+                                  00000a05         4   data ,g         0
+  _rpdl_TMR_tccr8_setting
+                                  00000a09         4   data ,g         0
+  _rpdl_TMR_one_shot
+                                  00000a0d         4   data ,g         4
+
+SECTION=R_1
+FILE=C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\sprite_images.obj
+                                  00000a11  00000a60        50
+  _Rectangle_image
+                                  00000a11         8   data ,g         1
+  _Triangle_image
+                                  00000a19         6   data ,g         1
+  _Square_LG_image
+                                  00000a1f        14   data ,g         1
+  _Circle_image
+                                  00000a33        14   data ,g         1
+  _FilledCircle_image
+                                  00000a47        14   data ,g         1
+  _SmallCircle_image
+                                  00000a5b         6   data ,g         1
+FILE=C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\switch.obj
+                                  00000a61  00000a61         1
+  _gSwitchFlag
+                                  00000a61         1   data ,g         8
+
+SECTION=B_2
+FILE=C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\main.obj
+                                  00000a62  00000a77        16
+  _ch2_control_parms
+                                  00000a62        16   data ,g         5
+FILE=globals_IIC
+                                  00000a78  00000a7f         8
+  _rpdl_IIC_rx_counter
+                                  00000a78         2   data ,g         2
+  _rpdl_IIC_tx_counter
+                                  00000a7a         2   data ,g         3
+  _rpdl_IIC_rx_threshold
+                                  00000a7c         2   data ,g         3
+  _rpdl_IIC_tx_threshold
+                                  00000a7e         2   data ,g         2
+FILE=globals_SCI
+                                  00000a80  00000ab7        38
+  _rpdl_SCI_rx_counter
+                                  00000a80         e   data ,g         6
+  _rpdl_SCI_tx_counter
+                                  00000a8e         e   data ,g         c
+  _rpdl_SCI_rx_threshold
+                                  00000a9c         e   data ,g         6
+  _rpdl_SCI_tx_threshold
+                                  00000aaa         e   data ,g         6
+FILE=globals_SPI
+                                  00000ab8  00000ac3         c
+  _rpdl_SPI_sequence_count
+                                  00000ab8         4   data ,g         5
+  _rpdl_SPI_tx_sequence_counter
+                                  00000abc         4   data ,g         3
+  _rpdl_SPI_rx_sequence_counter
+                                  00000ac0         4   data ,g         3
+FILE=globals_TMR
+                                  00000ac4  00000ac7         4
+  _rpdl_TMR_tccr16_setting
+                                  00000ac4         4   data ,g         0
+
+SECTION=R_2
+FILE=C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\lcd_graphics.obj
+                                  00000ac8  00000acb         4
+  _coord$20
+                                  00000ac8         4   data ,l         1
+
+SECTION=B
+FILE=C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\lcd_graphics.obj
+                                  00000acc  00000adb        10
+  _dtc_spi0_transfer_data
+                                  00000acc        10   data ,g         4
+FILE=C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\main.obj
+                                  00000adc  00000b6b        90
+  _theBall
+                                  00000adc        10   data ,g         4
+  _fpuBall
+                                  00000aec        10   data ,g         4
+  _fpuOps
+                                  00000afc         4   data ,g         1
+  _swOps
+                                  00000b00         4   data ,g         1
+  _totalFpuOps
+                                  00000b04         4   data ,g         2
+  _totalSwOps
+                                  00000b08         4   data ,g         2
+  _speedup
+                                  00000b0c         4   data ,g         1
+  _totalSpeedup
+                                  00000b10         4   data ,g         1
+  _ch2_create_parms
+                                  00000b14        58   data ,g         3
+FILE=C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\sbrk.obj
+                                  00000b6c  00000f6b       400
+  _heap_area
+                                  00000b6c       400   data ,l         2
+FILE=globals_ADC_10
+                                  00000f6c  00000f73         8
+  _rpdl_ADC_10_callback_func
+                                  00000f6c         8   data ,g         2
+FILE=globals_ADC_12
+                                  00000f74  00000f77         4
+  _rpdl_ADC_12_callback_func
+                                  00000f74         4   data ,g         1
+FILE=globals_BSC
+                                  00000f78  00000f7b         4
+  _rpdl_BSC_callback_func
+                                  00000f78         4   data ,g         1
+FILE=globals_CMT
+                                  00000f7c  00000f8b        10
+  _rpdl_CMT_callback_func
+                                  00000f7c        10   data ,g         5
+FILE=globals_DMAC
+                                  00000f8c  00000f9b        10
+  _rpdl_DMAC_callback_func
+                                  00000f8c        10   data ,g         4
+FILE=globals_IIC
+                                  00000f9c  00000faf        14
+  _rpdl_IIC_tx_data_pointer
+                                  00000f9c         4   data ,g         3
+  _rpdl_IIC_tx_data_start
+                                  00000fa0         4   data ,g         1
+  _rpdl_IIC_rx_data_pointer
+                                  00000fa4         4   data ,g         2
+  _rpdl_IIC_rx_data_start
+                                  00000fa8         4   data ,g         0
+  _rpdl_IIC_callback_func
+                                  00000fac         4   data ,g         6
+FILE=globals_INTC
+                                  00000fb0  00000fb3         4
+  _rpdl_INTC_saved_isp
+                                  00000fb0         4   data ,g         1
+FILE=globals_MTU2
+                                  00000fb4  00001133       180
+  _rpdl_MTU2_func1_callback_func
+                                  00000fb4        30   data ,g         d
+  _rpdl_MTU2_func2_callback_func
+                                  00000fe4        30   data ,g         d
+  _rpdl_MTU2_func3_callback_func
+                                  00001014        30   data ,g         9
+  _rpdl_MTU2_func4_callback_func
+                                  00001044        30   data ,g         7
+  _rpdl_MTU2_TGRE_callback_func
+                                  00001074        30   data ,g         3
+  _rpdl_MTU2_TGRF_callback_func
+                                  000010a4        30   data ,g         3
+  _rpdl_MTU2_Overflow_callback_func
+                                  000010d4        30   data ,g         b
+  _rpdl_MTU2_Underflow_callback_func
+                                  00001104        30   data ,g         5
+FILE=globals_POE
+                                  00001134  00001143        10
+  _rpdl_POE_callback_func
+                                  00001134        10   data ,g         4
+FILE=globals_SCI
+                                  00001144  000011eb        a8
+  _rpdl_SCI_tx_string_pointer
+                                  00001144        1c   data ,g         c
+  _rpdl_SCI_rx_string_pointer
+                                  00001160        1c   data ,g         6
+  _rpdl_SCI_rx_string_start
+                                  0000117c        1c   data ,g         0
+  _rpdl_SCI_TX_End_callback_func
+                                  00001198        1c   data ,g        12
+  _rpdl_SCI_RX_End_callback_func
+                                  000011b4        1c   data ,g         c
+  _rpdl_SCI_RX_Error_callback_func
+                                  000011d0        1c   data ,g         6
+FILE=globals_SPI
+                                  000011ec  00001203        18
+  _rpdl_SPI_tx_ptr
+                                  000011ec         8   data ,g         3
+  _rpdl_SPI_rx_ptr
+                                  000011f4         8   data ,g         3
+  _rpdl_SPI_callback_func
+                                  000011fc         8   data ,g         9
+FILE=globals_TMR
+                                  00001204  00001233        30
+  _rpdl_TMR_Overflow_callback_func
+                                  00001204        10   data ,g         4
+  _rpdl_TMR_CMA_callback_func
+                                  00001214        10   data ,g         4
+  _rpdl_TMR_CMB_callback_func
+                                  00001224        10   data ,g         4
+FILE=globals_WDT
+                                  00001234  00001237         4
+  _rpdl_WDT_callback_func
+                                  00001234         4   data ,g         1
+FILE=globals_CGC
+                                  00001238  00001243         c
+  _rpdl_CGC_f_pclk
+                                  00001238         4   data ,g         3
+  _rpdl_CGC_f_iclk
+                                  0000123c         4   data ,g         1
+  _rpdl_CGC_f_bclk
+                                  00001240         4   data ,g         3
+
+SECTION=R
+FILE=C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\main.obj
+                                  00001244  0000124b         8
+  _iterations
+                                  00001244         4   data ,g         2
+  _timerStopped
+                                  00001248         4   data ,g         2
+FILE=C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\sbrk.obj
+                                  0000124c  0000124f         4
+  _brk
+                                  0000124c         4   data ,l         1
+FILE=C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\sprite_images.obj
+                                  00001250  00001283        34
+  _Rectangle
+                                  00001250         8   data ,g         0
+  _Triangle
+                                  00001258         8   data ,g         0
+  _Square_LG
+                                  00001260         8   data ,g         0
+  _Circle
+                                  00001268         8   data ,g         0
+  _FilledCircle
+                                  00001270         8   data ,g         0
+  _SmallCircle
+                                  00001278         8   data ,g         2
+  _sprite
+                                  00001280         4   data ,g         0
+FILE=C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\switch.obj
+                                  00001284  0000128f         c
+  _gSwitchStandbyReady
+                                  00001284         4   data ,g         5
+  _gSwitchPressCallbackFunc
+                                  00001288         4   data ,g         4
+  _gSwitchReleaseCallbackFunc
+                                  0000128c         4   data ,g         4
+FILE=globals_INTC
+                                  00001290  000012e3        54
+  _rpdl_INTC_callback_func
+                                  00001290        54   data ,g        17
+
+SECTION=SU
+FILE=C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\resetprg.obj
+                                  000012e4  000018e3       600
+
+SECTION=SI
+FILE=C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\resetprg.obj
+                                  000018e4  000019e3       100
+
+SECTION=$ADDR_B_15000
+FILE=C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\lcd_graphics.obj
+                                  00015000  000153ff       400
+  _dtc_vector_table
+                                  00015000       400   data ,g         2
+
+SECTION=C_1
+FILE=globals_ADC_10
+                                  fffc0000  fffc0003         4
+  _rpdl_ADC_10_div_value
+                                  fffc0000         4   data ,g         0
+FILE=globals_IIC
+                                  fffc0004  fffc000b         8
+  _rpdl_IIC_div_value
+                                  fffc0004         8   data ,g         0
+FILE=globals_MTU2
+                                  fffc000c  fffc0010         5
+  _rpdl_MTU2_TSTR_mask
+                                  fffc000c         5   data ,g         2
+FILE=globals_SCI
+                                  fffc0011  fffc0014         4
+  _rpdl_SCI_div_value
+                                  fffc0011         4   data ,g         0
+FILE=globals_CGC
+                                  fffc0015  fffc0018         4
+  _rpdl_CGC_xCLK_mul_value
+                                  fffc0015         4   data ,g         1
+
+SECTION=C_2
+FILE=C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\lcd_graphics.obj
+                                  fffc001a  fffc002b        12
+  _ST7579_InitCmds
+                                  fffc001a        12   data ,l         1
+FILE=globals_CMT
+                                  fffc002c  fffc0033         8
+  _rpdl_CMT_div_value
+                                  fffc002c         8   data ,g         1
+FILE=globals_TMR
+                                  fffc0034  fffc0041         e
+  _rpdl_TMR_div_value
+                                  fffc0034         e   data ,g         0
+
+SECTION=C
+FILE=C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\dbsct.obj
+                                  fffc0044  fffc005b        18
+  __CTBL
+                                  fffc0044        18   data ,g         0
+
+SECTION=L
+FILE=C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\dbsct.obj
+                                  fffc005c  fffc005f         4
+  _deadSpace
+                                  fffc005c         4   data ,g         0
+
+SECTION=C$DSEC
+FILE=C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\dbsct.obj
+                                  fffc0060  fffc0083        24
+  __DTBL
+                                  fffc0060        24   data ,g         0
+
+SECTION=C$BSEC
+FILE=C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\dbsct.obj
+                                  fffc0084  fffc009b        18
+  __BTBL
+                                  fffc0084        18   data ,g         0
+
+SECTION=C$VECT
+FILE=C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\resetprg.obj
+                                  fffc009c  fffc049b       400
+
+SECTION=D
+FILE=C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\main.obj
+                                  fffc049c  fffc04a3         8
+FILE=C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\sbrk.obj
+                                  fffc04a4  fffc04a7         4
+FILE=C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\sprite_images.obj
+                                  fffc04a8  fffc04db        34
+FILE=C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\switch.obj
+                                  fffc04dc  fffc04e7         c
+FILE=globals_INTC
+                                  fffc04e8  fffc053b        54
+
+SECTION=D_2
+FILE=C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\lcd_graphics.obj
+                                  fffc053c  fffc053f         4
+
+SECTION=D_1
+FILE=C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\sprite_images.obj
+                                  fffc0540  fffc058f        50
+FILE=C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\switch.obj
+                                  fffc0590  fffc0590         1
+
+SECTION=PResetPRG
+FILE=C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\resetprg.obj
+                                  fffc0591  fffc05da        4a
+  _PowerON_Reset_PC
+                                  fffc0591        4a   entry,g         1
+
+SECTION=P
+FILE=C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\Ball.obj
+                                  fffc05db  fffc0679        9f
+  _ballUpdatePosition
+                                  fffc05db        94   func ,g         1
+  _ballInit
+                                  fffc066f         b   func ,g         1
+FILE=C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\ball_fpu.obj
+                                  fffc067a  fffc06f3        7a
+  _fpu_ballUpdatePosition
+                                  fffc067a        6f   func ,g         1
+  _fpu_ballInit
+                                  fffc06e9         b   func ,g         1
+FILE=C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\hwsetup.obj
+                                  fffc06f4  fffc08f6       203
+  _HardwareSetup
+                                  fffc06f4       101   func ,g         1
+  _ConfigureOperatingFrequency
+                                  fffc07f5        29   func ,g         0
+  _ConfigureOutputPorts
+                                  fffc081e        d4   func ,g         0
+  _ConfigureInterrupts
+                                  fffc08f2         4   func ,g         0
+  _EnablePeripheralModules
+                                  fffc08f6         1   func ,g         0
+FILE=C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\interrupt_adc_10.obj
+                                  fffc08f7  fffc092a        34
+  _Interrupt_ADC0
+                                  fffc08f7        1a   func ,g         0
+  _Interrupt_ADC1
+                                  fffc0911        1a   func ,g         0
+FILE=C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\interrupt_adc_12.obj
+                                  fffc092b  fffc0944        1a
+  _Interrupt_ADC_12_0
+                                  fffc092b        1a   func ,g         0
+FILE=C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\interrupt_bsc.obj
+                                  fffc0945  fffc095e        1a
+  _Interrupt_BSC
+                                  fffc0945        1a   func ,g         0
+FILE=C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\interrupt_cmt.obj
+                                  fffc095f  fffc0a3e        e0
+  _Interrupt_CMT0
+                                  fffc095f        38   func ,g         0
+  _Interrupt_CMT1
+                                  fffc0997        38   func ,g         0
+  _Interrupt_CMT2
+                                  fffc09cf        38   func ,g         0
+  _Interrupt_CMT3
+                                  fffc0a07        38   func ,g         0
+FILE=C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\interrupt_dmac.obj
+                                  fffc0a3f  fffc0aa6        68
+  _Interrupt_DMAC0
+                                  fffc0a3f        1a   func ,g         0
+  _Interrupt_DMAC1
+                                  fffc0a59        1a   func ,g         0
+  _Interrupt_DMAC2
+                                  fffc0a73        1a   func ,g         0
+  _Interrupt_DMAC3
+                                  fffc0a8d        1a   func ,g         0
+FILE=C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\interrupt_iic.obj
+                                  fffc0aa7  fffc0e3c       396
+  _Interrupt_IIC_ICEEI0
+                                  fffc0aa7        cd   func ,g         0
+  _Interrupt_IIC_ICEEI1
+                                  fffc0b74         3   func ,g         0
+  _Interrupt_IIC_ICRXI0
+                                  fffc0b77       16e   func ,g         0
+  _Interrupt_IIC_ICRXI1
+                                  fffc0ce5         3   func ,g         0
+  _Interrupt_IIC_ICTXI0
+                                  fffc0ce8       10a   func ,g         0
+  _Interrupt_IIC_ICTXI1
+                                  fffc0df2         3   func ,g         0
+  _Interrupt_IIC_ICTEI0
+                                  fffc0df5        45   func ,g         0
+  _Interrupt_IIC_ICTEI1
+                                  fffc0e3a         3   func ,g         0
+FILE=C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\interrupt_intc.obj
+                                  fffc0e3d  fffc11ca       38e
+  _Interrupt_IRQ0
+                                  fffc0e3d        1a   func ,g         0
+  _Interrupt_IRQ1
+                                  fffc0e57        1a   func ,g         0
+  _Interrupt_IRQ2
+                                  fffc0e71        1a   func ,g         0
+  _Interrupt_IRQ3
+                                  fffc0e8b        1a   func ,g         0
+  _Interrupt_IRQ4
+                                  fffc0ea5        1a   func ,g         0
+  _Interrupt_IRQ5
+                                  fffc0ebf        1a   func ,g         0
+  _Interrupt_IRQ6
+                                  fffc0ed9        1a   func ,g         0
+  _Interrupt_IRQ7
+                                  fffc0ef3        1a   func ,g         0
+  _Interrupt_IRQ8
+                                  fffc0f0d        1a   func ,g         0
+  _Interrupt_IRQ9
+                                  fffc0f27        1a   func ,g         0
+  _Interrupt_IRQ10
+                                  fffc0f41        1a   func ,g         0
+  _Interrupt_IRQ11
+                                  fffc0f5b        1a   func ,g         0
+  _Interrupt_IRQ12
+                                  fffc0f75        1a   func ,g         0
+  _Interrupt_IRQ13
+                                  fffc0f8f        1a   func ,g         0
+  _Interrupt_IRQ14
+                                  fffc0fa9        1a   func ,g         0
+  _Interrupt_IRQ15
+                                  fffc0fc3        1a   func ,g         0
+  _Interrupt_SWINT
+                                  fffc0fdd        1a   func ,g         0
+  _Interrupt_BRK
+                                  fffc0ff7       16b   func ,g         0
+  _Excep_PrivilegedInst
+                                  fffc1162        1a   func ,g         1
+  _Excep_UndefinedInst
+                                  fffc117c        1a   func ,g         1
+  _Excep_FloatingPoint
+                                  fffc1196        1a   func ,g         1
+  _Interrupt_NMI
+                                  fffc11b0        1a   func ,g         1
+  _Dummy
+                                  fffc11ca         1   func ,g         7
+FILE=C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\Interrupt_MTU2.obj
+                                  fffc11cb  fffc177a       5b0
+  _Interrupt_MTU0_TGIA0
+                                  fffc11cb        1a   func ,g         0
+  _Interrupt_MTU1_TGIA1
+                                  fffc11e5        1a   func ,g         0
+  _Interrupt_MTU2_TGIA2
+                                  fffc11ff        1a   func ,g         0
+  _Interrupt_MTU3_TGIA3
+                                  fffc1219        1a   func ,g         0
+  _Interrupt_MTU4_TGIA4
+                                  fffc1233        1a   func ,g         0
+  _Interrupt_MTU6_TGIA6
+                                  fffc124d        1a   func ,g         0
+  _Interrupt_MTU7_TGIA7
+                                  fffc1267        1a   func ,g         0
+  _Interrupt_MTU8_TGIA8
+                                  fffc1281        1a   func ,g         0
+  _Interrupt_MTU9_TGIA9
+                                  fffc129b        1a   func ,g         0
+  _Interrupt_MTU10_TGIA10
+                                  fffc12b5        1a   func ,g         0
+  _Interrupt_MTU0_TGIB0
+                                  fffc12cf        1a   func ,g         0
+  _Interrupt_MTU1_TGIB1
+                                  fffc12e9        1a   func ,g         0
+  _Interrupt_MTU2_TGIB2
+                                  fffc1303        1a   func ,g         0
+  _Interrupt_MTU3_TGIB3
+                                  fffc131d        1a   func ,g         0
+  _Interrupt_MTU4_TGIB4
+                                  fffc1337        1a   func ,g         0
+  _Interrupt_MTU6_TGIB6
+                                  fffc1351        1a   func ,g         0
+  _Interrupt_MTU7_TGIB7
+                                  fffc136b        1a   func ,g         0
+  _Interrupt_MTU8_TGIB8
+                                  fffc1385        1a   func ,g         0
+  _Interrupt_MTU9_TGIB9
+                                  fffc139f        1a   func ,g         0
+  _Interrupt_MTU10_TGIB10
+                                  fffc13b9        1a   func ,g         0
+  _Interrupt_MTU0_TGIC0
+                                  fffc13d3        1a   func ,g         0
+  _Interrupt_MTU3_TGIC3
+                                  fffc13ed        1a   func ,g         0
+  _Interrupt_MTU4_TGIC4
+                                  fffc1407        1a   func ,g         0
+  _Interrupt_MTU6_TGIC6
+                                  fffc1421        1a   func ,g         0
+  _Interrupt_MTU9_TGIC9
+                                  fffc143b        1a   func ,g         0
+  _Interrupt_MTU10_TGIC10
+                                  fffc1455        1a   func ,g         0
+  _Interrupt_MTU0_TGID0
+                                  fffc146f        1a   func ,g         0
+  _Interrupt_MTU3_TGID3
+                                  fffc1489        1a   func ,g         0
+  _Interrupt_MTU4_TGID4
+                                  fffc14a3        1a   func ,g         0
+  _Interrupt_MTU6_TGID6
+                                  fffc14bd        1a   func ,g         0
+  _Interrupt_MTU9_TGID9
+                                  fffc14d7        1a   func ,g         0
+  _Interrupt_MTU10_TGID10
+                                  fffc14f1        1a   func ,g         0
+  _Interrupt_MTU0_TGIE0
+                                  fffc150b        1a   func ,g         0
+  _Interrupt_MTU6_TGIE6
+                                  fffc1525        1a   func ,g         0
+  _Interrupt_MTU0_TGIF0
+                                  fffc153f        1a   func ,g         0
+  _Interrupt_MTU6_TGIF6
+                                  fffc1559        1a   func ,g         0
+  _Interrupt_MTU0_TCIV0
+                                  fffc1573        1a   func ,g         0
+  _Interrupt_MTU1_TCIV1
+                                  fffc158d        1a   func ,g         0
+  _Interrupt_MTU2_TCIV2
+                                  fffc15a7        1a   func ,g         0
+  _Interrupt_MTU3_TCIV3
+                                  fffc15c1        1a   func ,g         0
+  _Interrupt_MTU4_TCIV4
+                                  fffc15db        1a   func ,g         0
+  _Interrupt_MTU6_TCIV6
+                                  fffc15f5        1a   func ,g         0
+  _Interrupt_MTU7_TCIV7
+                                  fffc160f        1a   func ,g         0
+  _Interrupt_MTU8_TCIV8
+                                  fffc1629        1a   func ,g         0
+  _Interrupt_MTU9_TCIV9
+                                  fffc1643        1a   func ,g         0
+  _Interrupt_MTU10_TCIV10
+                                  fffc165d        1a   func ,g         0
+  _Interrupt_MTU1_TCIU1
+                                  fffc1677        1a   func ,g         0
+  _Interrupt_MTU2_TCIU2
+                                  fffc1691        1a   func ,g         0
+  _Interrupt_MTU7_TCIU7
+                                  fffc16ab        1a   func ,g         0
+  _Interrupt_MTU8_TCIU8
+                                  fffc16c5        1a   func ,g         0
+  _Interrupt_MTU5_TGIU5
+                                  fffc16df        1a   func ,g         0
+  _Interrupt_MTU11_TGIU11
+                                  fffc16f9        1a   func ,g         0
+  _Interrupt_MTU5_TGIV5
+                                  fffc1713        1a   func ,g         0
+  _Interrupt_MTU11_TGIV11
+                                  fffc172d        1a   func ,g         0
+  _Interrupt_MTU5_TGIW5
+                                  fffc1747        1a   func ,g         0
+  _Interrupt_MTU11_TGIW11
+                                  fffc1761        1a   func ,g         0
+FILE=C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\interrupt_not_rpdl.obj
+                                  fffc177b  fffc17aa        30
+  _Interrupt_FIFERR
+                                  fffc177b         3   func ,g         0
+  _Interrupt_FRDYI
+                                  fffc177e         3   func ,g         0
+  _Interrupt_EINT
+                                  fffc1781         3   func ,g         0
+  _Interrupt_D0FIFO0
+                                  fffc1784         3   func ,g         0
+  _Interrupt_D1FIFO0
+                                  fffc1787         3   func ,g         0
+  _Interrupt_USBI0
+                                  fffc178a         3   func ,g         0
+  _Interrupt_USBR0
+                                  fffc178d         3   func ,g         0
+  _Interrupt_D0FIFO1
+                                  fffc1790         3   func ,g         0
+  _Interrupt_D1FIFO1
+                                  fffc1793         3   func ,g         0
+  _Interrupt_USBI1
+                                  fffc1796         3   func ,g         0
+  _Interrupt_USBR1
+                                  fffc1799         3   func ,g         0
+  _Interrupt_ERS0
+                                  fffc179c         3   func ,g         0
+  _Interrupt_RXF0
+                                  fffc179f         3   func ,g         0
+  _Interrupt_TXF0
+                                  fffc17a2         3   func ,g         0
+  _Interrupt_RXM0
+                                  fffc17a5         3   func ,g         0
+  _Interrupt_TXM0
+                                  fffc17a8         3   func ,g         0
+FILE=C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\interrupt_poe.obj
+                                  fffc17ab  fffc1812        68
+  _Interrupt_OEI1
+                                  fffc17ab        1a   func ,g         0
+  _Interrupt_OEI2
+                                  fffc17c5        1a   func ,g         0
+  _Interrupt_OEI3
+                                  fffc17df        1a   func ,g         0
+  _Interrupt_OEI4
+                                  fffc17f9        1a   func ,g         0
+FILE=C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\interrupt_sci.obj
+                                  fffc1813  fffc218e       97c
+  _Interrupt_SCI0_ERI0
+                                  fffc1813        22   func ,g         0
+  _Interrupt_SCI1_ERI1
+                                  fffc1835        22   func ,g         0
+  _Interrupt_SCI2_ERI2
+                                  fffc1857        22   func ,g         0
+  _Interrupt_SCI3_ERI3
+                                  fffc1879        22   func ,g         0
+  _Interrupt_SCI5_ERI5
+                                  fffc189b        22   func ,g         0
+  _Interrupt_SCI6_ERI6
+                                  fffc18bd        22   func ,g         0
+  _Interrupt_SCI0_RXI0
+                                  fffc18df        b0   func ,g         0
+  _Interrupt_SCI1_RXI1
+                                  fffc198f        b2   func ,g         0
+  _Interrupt_SCI2_RXI2
+                                  fffc1a41        b2   func ,g         0
+  _Interrupt_SCI3_RXI3
+                                  fffc1af3        b2   func ,g         0
+  _Interrupt_SCI5_RXI5
+                                  fffc1ba5        b2   func ,g         0
+  _Interrupt_SCI6_RXI6
+                                  fffc1c57        b2   func ,g         0
+  _Interrupt_SCI0_TXI0
+                                  fffc1d09        9a   func ,g         0
+  _Interrupt_SCI1_TXI1
+                                  fffc1da3        9a   func ,g         0
+  _Interrupt_SCI2_TXI2
+                                  fffc1e3d        9a   func ,g         0
+  _Interrupt_SCI3_TXI3
+                                  fffc1ed7        9a   func ,g         0
+  _Interrupt_SCI5_TXI5
+                                  fffc1f71        9a   func ,g         0
+  _Interrupt_SCI6_TXI6
+                                  fffc200b        9a   func ,g         0
+  _Interrupt_SCI0_TEI0
+                                  fffc20a5        27   func ,g         0
+  _Interrupt_SCI1_TEI1
+                                  fffc20cc        27   func ,g         0
+  _Interrupt_SCI2_TEI2
+                                  fffc20f3        27   func ,g         0
+  _Interrupt_SCI3_TEI3
+                                  fffc211a        27   func ,g         0
+  _Interrupt_SCI5_TEI5
+                                  fffc2141        27   func ,g         0
+  _Interrupt_SCI6_TEI6
+                                  fffc2168        27   func ,g         0
+FILE=C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\interrupt_spi.obj
+                                  fffc218f  fffc269a       50c
+  _Interrupt_RSPI0_SPEI0
+                                  fffc218f        1a   func ,g         0
+  _Interrupt_RSPI1_SPEI1
+                                  fffc21a9        1a   func ,g         0
+  _Interrupt_RSPI0_SPRI0
+                                  fffc21c3       11a   func ,g         0
+  _Interrupt_RSPI1_SPRI1
+                                  fffc22dd       11e   func ,g         0
+  _Interrupt_RSPI0_SPTI0
+                                  fffc23fb       12c   func ,g         0
+  _Interrupt_RSPI1_SPTI1
+                                  fffc2527       12c   func ,g         0
+  _Interrupt_RSPI0_SPII0
+                                  fffc2653        24   func ,g         0
+  _Interrupt_RSPI1_SPII1
+                                  fffc2677        24   func ,g         0
+FILE=C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\interrupt_tmr.obj
+                                  fffc269b  fffc2866       1cc
+  _Interrupt_TMR0_CMA
+                                  fffc269b        1a   func ,g         0
+  _Interrupt_TMR0_CMB
+                                  fffc26b5        48   func ,g         0
+  _Interrupt_TMR0_OV
+                                  fffc26fd        1a   func ,g         0
+  _Interrupt_TMR1_CMA
+                                  fffc2717        1a   func ,g         0
+  _Interrupt_TMR1_CMB
+                                  fffc2731        36   func ,g         0
+  _Interrupt_TMR1_OV
+                                  fffc2767        1a   func ,g         0
+  _Interrupt_TMR2_CMA
+                                  fffc2781        1a   func ,g         0
+  _Interrupt_TMR2_CMB
+                                  fffc279b        48   func ,g         0
+  _Interrupt_TMR2_OV
+                                  fffc27e3        1a   func ,g         0
+  _Interrupt_TMR3_CMA
+                                  fffc27fd        1a   func ,g         0
+  _Interrupt_TMR3_CMB
+                                  fffc2817        36   func ,g         0
+  _Interrupt_TMR3_OV
+                                  fffc284d        1a   func ,g         0
+FILE=C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\interrupt_wdt.obj
+                                  fffc2867  fffc2880        1a
+  _Interrupt_WDT
+                                  fffc2867        1a   func ,g         0
+FILE=C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\lcd_graphics.obj
+                                  fffc2881  fffc31a9       929
+  _init_LCD_Graphics
+                                  fffc2881       112   func ,g         1
+  _CallbackLCD
+                                  fffc2993         1   func ,l         2
+  _refresh_LCD
+                                  fffc2994       450   func ,g         1
+  _insert_Sprite
+                                  fffc2de4       34b   func ,g         2
+  _remove_Sprite
+                                  fffc312f        7b   func ,g         4
+FILE=C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\main.obj
+                                  fffc31aa  fffc3474       2cb
+  _main
+                                  fffc31aa       2a4   func ,g         1
+  _CB_MTU_Timer
+                                  fffc344e        27   func ,l         1
+FILE=C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\sbrk.obj
+                                  fffc3475  fffc3491        1d
+  _sbrk
+                                  fffc3475        1d   func ,g         0
+FILE=C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\switch.obj
+                                  fffc3492  fffc3739       2a8
+  _InitialiseSwitchInterrupts
+                                  fffc3492        53   func ,g         2
+  _SetSwitchPressCallback
+                                  fffc34e5         9   func ,g         0
+  _SetSwitchReleaseCallback
+                                  fffc34ee         9   func ,g         0
+  _ControlSwitchInterrupts
+                                  fffc34f7        53   func ,g         0
+  _SW1_InterruptCB
+                                  fffc354a        8e   func ,g         1
+  _SW2_InterruptCB
+                                  fffc35d8        8e   func ,g         1
+  _SW3_InterruptCB
+                                  fffc3666        8c   func ,g         1
+  _SwitchDebounceCB
+                                  fffc36f2        48   func ,g         3
+FILE=R_CGC_SetAll
+                                  fffc373a  fffc3937       1fe
+  _R_CGC_SetAll
+                                  fffc373a       1fe   func ,g         2
+FILE=R_CMT_CreateOneShotAll
+                                  fffc3938  fffc3b7c       245
+  _R_CMT_CreateOneShotAll
+                                  fffc3938       245   func ,g         3
+FILE=R_DTC_ControlAll
+                                  fffc3b7d  fffc3cf4       178
+  _R_DTC_ControlAll
+                                  fffc3b7d       178   func ,g         3
+FILE=R_DTC_CreateAll
+                                  fffc3cf5  fffc3e91       19d
+  _R_DTC_CreateAll
+                                  fffc3cf5       19d   func ,g         1
+FILE=R_DTC_SetAll
+                                  fffc3e92  fffc3ed9        48
+  _R_DTC_SetAll
+                                  fffc3e92        48   func ,g         1
+FILE=R_INTC_ControlExtInterruptAll
+                                  fffc3eda  fffc3fa1        c8
+  _R_INTC_ControlExtInterruptAll
+                                  fffc3eda        87   func ,g         e
+  _rpdl_INTC_ModifyMD
+                                  fffc3f61        41   func ,l         1
+FILE=R_INTC_CreateExtInterruptAll
+                                  fffc3fa2  fffc4127       186
+  _R_INTC_CreateExtInterruptAll
+                                  fffc3fa2       186   func ,g         3
+FILE=R_INTC_GetExtInterruptStatusAll
+                                  fffc4128  fffc4228       101
+  _R_INTC_GetExtInterruptStatusAll
+                                  fffc4128        6a   func ,g         3
+  _ReadIRQPin
+                                  fffc4192        97   func ,l         1
+FILE=R_IO_PORT_SetAll
+                                  fffc4229  fffc42f3        cb
+  _R_IO_PORT_SetAll
+                                  fffc4229        cb   func ,g        12
+FILE=R_IO_PORT_WriteRegisterAll
+                                  fffc42f4  fffc4301         e
+  _R_IO_PORT_WriteRegisterAll
+                                  fffc42f4         e   func ,g         a
+FILE=R_MTU2_ControlChannelAll
+                                  fffc4302  fffc476f       46e
+  _R_MTU2_ControlChannelAll
+                                  fffc4302       46e   func ,g         5
+FILE=R_MTU2_CreateAll
+                                  fffc4770  fffc69c7      2258
+  _R_MTU2_CreateAll
+                                  fffc4770      2258   func ,g         1
+FILE=R_MTU2_SetAll
+                                  fffc69c8  fffc6a31        6a
+  _R_MTU2_SetAll
+                                  fffc69c8        6a   func ,g         1
+FILE=R_SPI_CommandAll
+                                  fffc6a32  fffc6bc8       197
+  _R_SPI_CommandAll
+                                  fffc6a32       197   func ,g         1
+FILE=R_SPI_CreateAll
+                                  fffc6bc9  fffc706c       4a4
+  _R_SPI_CreateAll
+                                  fffc6bc9       4a4   func ,g         1
+FILE=R_SPI_TransferAll
+                                  fffc706d  fffc7347       2db
+  _R_SPI_TransferAll
+                                  fffc706d       2db   func ,g         3
+FILE=utilities_ADC_10
+                                  fffc7348  fffc73a2        5b
+  _rpdl_ADC_10_Start
+                                  fffc7348        19   func ,g         2
+  _rpdl_ADC_10_ModifyIEN
+                                  fffc7361        42   func ,g         0
+FILE=utilities_IIC
+                                  fffc73a3  fffc74bb       119
+  _rpdl_IIC_EnableTxIEN
+                                  fffc73a3        4b   func ,g         0
+  _rpdl_IIC_EnableRxIEN
+                                  fffc73ee        4b   func ,g         0
+  _rpdl_IIC_DisableIEN
+                                  fffc7439        37   func ,g         0
+  _Send_IIC_byte
+                                  fffc7470        25   func ,g         0
+  _Store_detected_address
+                                  fffc7495        27   func ,g         2
+FILE=utilities_MTU2
+                                  fffc74bc  fffc7c5b       7a0
+  _R_MTU2_Create_load_defaults
+                                  fffc74bc        3b   func ,g         1
+  _rpdl_MTU2_DisableIER
+                                  fffc74f7       1d3   func ,g         1
+  _rpdl_MTU2_EnableTGRAIER
+                                  fffc76ca        f3   func ,g         1
+  _rpdl_MTU2_EnableTGRBIER
+                                  fffc77bd        f3   func ,g         1
+  _rpdl_MTU2_EnableTGRCIER
+                                  fffc78b0        a0   func ,g         1
+  _rpdl_MTU2_EnableTGRDIER
+                                  fffc7950        a0   func ,g         1
+  _rpdl_MTU2_EnableTGREIER
+                                  fffc79f0        36   func ,g         1
+  _rpdl_MTU2_EnableTGRFIER
+                                  fffc7a26        36   func ,g         1
+  _rpdl_MTU2_EnableTGRUIER
+                                  fffc7a5c        36   func ,g         1
+  _rpdl_MTU2_EnableTGRVIER
+                                  fffc7a92        36   func ,g         1
+  _rpdl_MTU2_EnableTGRWIER
+                                  fffc7ac8        36   func ,g         1
+  _rpdl_MTU2_EnableTCIVIER
+                                  fffc7afe        f3   func ,g         1
+  _rpdl_MTU2_EnableTCIUIER
+                                  fffc7bf1        6b   func ,g         1
+FILE=__COM_ADDf_SUBf
+                                  fffc7c5c  fffc7d7b       120
+  __COM_SUBf
+                                  fffc7c5c         0   none ,g         0
+  __COM_ADDf
+                                  fffc7c63         0   none ,g         3
+  swap_end
+                                  fffc7c7e         0   none ,l         1
+  y_normal
+                                  fffc7c97         0   none ,l         1
+  after_shift
+                                  fffc7cbc         0   none ,l         1
+  round1
+                                  fffc7cc4         0   none ,l         7
+  set_return_value
+                                  fffc7cd9         0   none ,l         1
+  round2
+                                  fffc7cda         0   none ,l         1
+  add_ovf
+                                  fffc7ce8         0   none ,l         1
+  subtract
+                                  fffc7cfa         0   none ,l         1
+  loop
+                                  fffc7d04         0   none ,l         1
+  normalize
+                                  fffc7d1e         0   none ,l         5
+  zero_or_den
+                                  fffc7d2d         0   none ,l         1
+  inf_or_nan
+                                  fffc7d40         0   none ,l         1
+  return_nan
+                                  fffc7d51         0   none ,l         1
+  denormal
+                                  fffc7d58         0   none ,l         1
+  den_add
+                                  fffc7d68         0   none ,l         1
+  return_y_normal
+                                  fffc7d6f         0   none ,l         1
+  return_y_pack
+                                  fffc7d71         0   none ,l         4
+  return_y_set_sign
+                                  fffc7d77         0   none ,l         1
+FILE=__COM_CMPGTf
+                                  fffc7d7c  fffc7dc2        47
+  __COM_CMPGTf
+                                  fffc7d7c         0   none ,g         2
+  OPE_1
+                                  fffc7d95         0   none ,l         1
+  x_normalized
+                                  fffc7d9b         0   none ,l         1
+  OPE_2
+                                  fffc7db4         0   none ,l         1
+  y_normalized
+                                  fffc7dba         0   none ,l         1
+  nan
+                                  fffc7dc0         0   none ,l         2
+FILE=__COM_CMPLTf
+                                  fffc7dc3  fffc7e09        47
+  __COM_CMPLTf
+                                  fffc7dc3         0   none ,g         2
+  OPE_1
+                                  fffc7ddc         0   none ,l         1
+  x_normalized
+                                  fffc7de2         0   none ,l         1
+  OPE_2
+                                  fffc7dfb         0   none ,l         1
+  y_normalized
+                                  fffc7e01         0   none ,l         1
+  nan
+                                  fffc7e07         0   none ,l         2
+FILE=__initsct
+                                  fffc7e0a  fffc7e53        4a
+  __INITSCT
+                                  fffc7e0a         0   none ,g         1
+  loop1
+                                  fffc7e1c         0   none ,l         1
+  next_loop1
+                                  fffc7e2a         0   none ,l         2
+  loop3
+                                  fffc7e3c         0   none ,l         1
+  next_loop3
+                                  fffc7e4d         0   none ,l         2
+FILE=utilities_CMT
+                                  fffc7e54  fffc7ed4        81
+  _rpdl_CMT_ModifyIEN
+                                  fffc7e54        81   func ,g         2
+FILE=utilities_INTC
+                                  fffc7ed5  fffc8003       12f
+  _rpdl_INTC_ModifyIEN
+                                  fffc7ed5        41   func ,g         5
+  _rpdl_INTC_ReadIEN
+                                  fffc7f16        21   func ,g         1
+  _SetIRQPin
+                                  fffc7f37        cd   func ,g         1
+FILE=utilities_SPI
+                                  fffc8004  fffc80ba        b7
+  _rpdl_SPI_EnableErrorIEN
+                                  fffc8004        1f   func ,g         2
+  _rpdl_SPI_EnableIdleIEN
+                                  fffc8023        1f   func ,g         1
+  _rpdl_SPI_EnableTransferIEN
+                                  fffc8042        42   func ,g         1
+  _rpdl_SPI_DisableIEN
+                                  fffc8084        37   func ,g         2
+
+SECTION=W_1
+FILE=R_INTC_CreateExtInterruptAll
+                                  fffc80bb  fffc80ca        10
+FILE=R_MTU2_ControlChannelAll
+                                  fffc80cb  fffc80ee        24
+FILE=R_MTU2_CreateAll
+                                  fffc80ef  fffc813d        4f
+
+SECTION=W_2
+FILE=C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\interrupt_iic.obj
+                                  fffc813e  fffc8169        2c
+FILE=C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\interrupt_intc.obj
+                                  fffc816a  fffc817d        14
+FILE=R_MTU2_ControlChannelAll
+                                  fffc817e  fffc8195        18
+FILE=R_MTU2_CreateAll
+                                  fffc8196  fffc81f1        5c
+FILE=utilities_MTU2
+                                  fffc81f2  fffc824b        5a
+
+SECTION=$ADDR_C_FFFFFFA0
+FILE=C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\id_code.obj
+                                  ffffffa0  ffffffaf        10
+  _id_code
+                                  ffffffa0        10   data ,g         0
+
+SECTION=FIXEDVECT
+FILE=C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\interrupt_intc.obj
+                                  ffffffd0  ffffffff        30
+  _Fixed_Vectors
+                                  ffffffd0        30   data ,g         0
+
+*** Delete Symbols ***
+
+SYMBOL                                SIZE    INFO
+
+*** Variable Vector Table List ***
+
+NO.    SYMBOL/ADDRESS
+  0    _Interrupt_BRK
+  1    
+  2    
+  3    
+  4    
+  5    
+  6    
+  7    
+  8    
+  9    
+ 10    
+ 11    
+ 12    
+ 13    
+ 14    
+ 15    
+ 16    _Interrupt_BSC
+ 17    
+ 18    
+ 19    
+ 20    
+ 21    _Interrupt_FIFERR
+ 22    
+ 23    _Interrupt_FRDYI
+ 24    
+ 25    
+ 26    
+ 27    _Interrupt_SWINT
+ 28    _Interrupt_CMT0
+ 29    _Interrupt_CMT1
+ 30    _Interrupt_CMT2
+ 31    _Interrupt_CMT3
+ 32    _Interrupt_EINT
+ 33    
+ 34    
+ 35    
+ 36    _Interrupt_D0FIFO0
+ 37    _Interrupt_D1FIFO0
+ 38    _Interrupt_USBI0
+ 39    
+ 40    _Interrupt_D0FIFO1
+ 41    _Interrupt_D1FIFO1
+ 42    _Interrupt_USBI1
+ 43    
+ 44    _Interrupt_RSPI0_SPEI0
+ 45    _Interrupt_RSPI0_SPRI0
+ 46    _Interrupt_RSPI0_SPTI0
+ 47    _Interrupt_RSPI0_SPII0
+ 48    _Interrupt_RSPI1_SPEI1
+ 49    _Interrupt_RSPI1_SPRI1
+ 50    _Interrupt_RSPI1_SPTI1
+ 51    _Interrupt_RSPI1_SPII1
+ 52    
+ 53    
+ 54    
+ 55    
+ 56    _Interrupt_ERS0
+ 57    _Interrupt_RXF0
+ 58    _Interrupt_TXF0
+ 59    _Interrupt_RXM0
+ 60    _Interrupt_TXM0
+ 61    
+ 62    
+ 63    
+ 64    _Interrupt_IRQ0
+ 65    _Interrupt_IRQ1
+ 66    _Interrupt_IRQ2
+ 67    _Interrupt_IRQ3
+ 68    _Interrupt_IRQ4
+ 69    _Interrupt_IRQ5
+ 70    _Interrupt_IRQ6
+ 71    _Interrupt_IRQ7
+ 72    _Interrupt_IRQ8
+ 73    _Interrupt_IRQ9
+ 74    _Interrupt_IRQ10
+ 75    _Interrupt_IRQ11
+ 76    _Interrupt_IRQ12
+ 77    _Interrupt_IRQ13
+ 78    _Interrupt_IRQ14
+ 79    _Interrupt_IRQ15
+ 80    
+ 81    
+ 82    
+ 83    
+ 84    
+ 85    
+ 86    
+ 87    
+ 88    
+ 89    
+ 90    _Interrupt_USBR0
+ 91    _Interrupt_USBR1
+ 92    
+ 93    
+ 94    
+ 95    
+ 96    _Interrupt_WDT
+ 97    
+ 98    _Interrupt_ADC0
+ 99    _Interrupt_ADC1
+100    
+101    
+102    _Interrupt_ADC_12_0
+103    
+104    
+105    
+106    
+107    
+108    
+109    
+110    
+111    
+112    
+113    
+114    _Interrupt_MTU0_TGIA0
+115    _Interrupt_MTU0_TGIB0
+116    _Interrupt_MTU0_TGIC0
+117    _Interrupt_MTU0_TGID0
+118    _Interrupt_MTU0_TCIV0
+119    _Interrupt_MTU0_TGIE0
+120    _Interrupt_MTU0_TGIF0
+121    _Interrupt_MTU1_TGIA1
+122    _Interrupt_MTU1_TGIB1
+123    _Interrupt_MTU1_TCIV1
+124    _Interrupt_MTU1_TCIU1
+125    _Interrupt_MTU2_TGIA2
+126    _Interrupt_MTU2_TGIB2
+127    _Interrupt_MTU2_TCIV2
+128    _Interrupt_MTU2_TCIU2
+129    _Interrupt_MTU3_TGIA3
+130    _Interrupt_MTU3_TGIB3
+131    _Interrupt_MTU3_TGIC3
+132    _Interrupt_MTU3_TGID3
+133    _Interrupt_MTU3_TCIV3
+134    _Interrupt_MTU4_TGIA4
+135    _Interrupt_MTU4_TGIB4
+136    _Interrupt_MTU4_TGIC4
+137    _Interrupt_MTU4_TGID4
+138    _Interrupt_MTU4_TCIV4
+139    _Interrupt_MTU5_TGIU5
+140    _Interrupt_MTU5_TGIV5
+141    _Interrupt_MTU5_TGIW5
+142    _Interrupt_MTU6_TGIA6
+143    _Interrupt_MTU6_TGIB6
+144    _Interrupt_MTU6_TGIC6
+145    _Interrupt_MTU6_TGID6
+146    _Interrupt_MTU6_TCIV6
+147    _Interrupt_MTU6_TGIE6
+148    _Interrupt_MTU6_TGIF6
+149    _Interrupt_MTU7_TGIA7
+150    _Interrupt_MTU7_TGIB7
+151    _Interrupt_MTU7_TCIV7
+152    _Interrupt_MTU7_TCIU7
+153    _Interrupt_MTU8_TGIA8
+154    _Interrupt_MTU8_TGIB8
+155    _Interrupt_MTU8_TCIV8
+156    _Interrupt_MTU8_TCIU8
+157    _Interrupt_MTU9_TGIA9
+158    _Interrupt_MTU9_TGIB9
+159    _Interrupt_MTU9_TGIC9
+160    _Interrupt_MTU9_TGID9
+161    _Interrupt_MTU9_TCIV9
+162    _Interrupt_MTU10_TGIA10
+163    _Interrupt_MTU10_TGIB10
+164    _Interrupt_MTU10_TGIC10
+165    _Interrupt_MTU10_TGID10
+166    _Interrupt_MTU10_TCIV10
+167    _Interrupt_MTU11_TGIU11
+168    _Interrupt_MTU11_TGIV11
+169    _Interrupt_MTU11_TGIW11
+170    _Interrupt_OEI1
+171    _Interrupt_OEI2
+172    _Interrupt_OEI3
+173    _Interrupt_OEI4
+174    _Interrupt_TMR0_CMA
+175    _Interrupt_TMR0_CMB
+176    _Interrupt_TMR0_OV
+177    _Interrupt_TMR1_CMA
+178    _Interrupt_TMR1_CMB
+179    _Interrupt_TMR1_OV
+180    _Interrupt_TMR2_CMA
+181    _Interrupt_TMR2_CMB
+182    _Interrupt_TMR2_OV
+183    _Interrupt_TMR3_CMA
+184    _Interrupt_TMR3_CMB
+185    _Interrupt_TMR3_OV
+186    
+187    
+188    
+189    
+190    
+191    
+192    
+193    
+194    
+195    
+196    
+197    
+198    _Interrupt_DMAC0
+199    _Interrupt_DMAC1
+200    _Interrupt_DMAC2
+201    _Interrupt_DMAC3
+202    
+203    
+204    
+205    
+206    
+207    
+208    
+209    
+210    
+211    
+212    
+213    
+214    _Interrupt_SCI0_ERI0
+215    _Interrupt_SCI0_RXI0
+216    _Interrupt_SCI0_TXI0
+217    _Interrupt_SCI0_TEI0
+218    _Interrupt_SCI1_ERI1
+219    _Interrupt_SCI1_RXI1
+220    _Interrupt_SCI1_TXI1
+221    _Interrupt_SCI1_TEI1
+222    _Interrupt_SCI2_ERI2
+223    _Interrupt_SCI2_RXI2
+224    _Interrupt_SCI2_TXI2
+225    _Interrupt_SCI2_TEI2
+226    _Interrupt_SCI3_ERI3
+227    _Interrupt_SCI3_RXI3
+228    _Interrupt_SCI3_TXI3
+229    _Interrupt_SCI3_TEI3
+230    
+231    
+232    
+233    
+234    _Interrupt_SCI5_ERI5
+235    _Interrupt_SCI5_RXI5
+236    _Interrupt_SCI5_TXI5
+237    _Interrupt_SCI5_TEI5
+238    _Interrupt_SCI6_ERI6
+239    _Interrupt_SCI6_RXI6
+240    _Interrupt_SCI6_TXI6
+241    _Interrupt_SCI6_TEI6
+242    
+243    
+244    
+245    
+246    _Interrupt_IIC_ICEEI0
+247    _Interrupt_IIC_ICRXI0
+248    _Interrupt_IIC_ICTXI0
+249    _Interrupt_IIC_ICTEI0
+250    _Interrupt_IIC_ICEEI1
+251    _Interrupt_IIC_ICRXI1
+252    _Interrupt_IIC_ICTXI1
+253    _Interrupt_IIC_ICTEI1
+254    
+255    
+
+*** Cross Reference List ***
+
+No   Unit Name   Global.Symbol   Location External Infomation
+---- ----------- --------------- -------- ---------------------
+0001 Ball
+     SECTION=P
+                 _ballUpdatePosition
+                                 fffc05db 0021(fffc32ac:P)
+                 _ballInit
+                                 fffc066f 0021(fffc31e3:P)
+0002 ball_fpu
+     SECTION=P
+                 _fpu_ballUpdatePosition
+                                 fffc067a 0021(fffc32d9:P)
+                 _fpu_ballInit
+                                 fffc06e9 0021(fffc31c7:P)
+0003 dbsct
+     SECTION=C
+                 __CTBL
+                                 fffc0044
+     SECTION=L
+                 _deadSpace
+                                 fffc005c
+     SECTION=C$DSEC
+                 __DTBL
+                                 fffc0060
+     SECTION=C$BSEC
+                 __BTBL
+                                 fffc0084
+     SECTION=C_1
+     SECTION=C_2
+     SECTION=W_1
+     SECTION=W_2
+     SECTION=W
+     SECTION=D
+     SECTION=R
+     SECTION=D_2
+     SECTION=R_2
+     SECTION=D_1
+     SECTION=R_1
+     SECTION=B
+     SECTION=B_2
+     SECTION=B_1
+     SECTION=R
+     SECTION=R_1
+     SECTION=R_2
+0004 hwsetup
+     SECTION=P
+                 _HardwareSetup
+                                 fffc06f4 0022(fffc05b4:PResetPRG)
+                 _ConfigureOperatingFrequency
+                                 fffc07f5
+                 _ConfigureOutputPorts
+                                 fffc081e
+                 _ConfigureInterrupts
+                                 fffc08f2
+                 _EnablePeripheralModules
+                                 fffc08f6
+0005 id_code
+     SECTION=$ADDR_C_FFFFFFA0
+                 _id_code
+                                 ffffffa0
+0006 interrupt_adc_10
+     SECTION=P
+                 _Interrupt_ADC0
+                                 fffc08f7
+                 _Interrupt_ADC1
+                                 fffc0911
+0007 interrupt_adc_12
+     SECTION=P
+                 _Interrupt_ADC_12_0
+                                 fffc092b
+0008 interrupt_bsc
+     SECTION=P
+                 _Interrupt_BSC
+                                 fffc0945
+0009 interrupt_cmt
+     SECTION=P
+                 _Interrupt_CMT0
+                                 fffc095f
+                 _Interrupt_CMT1
+                                 fffc0997
+                 _Interrupt_CMT2
+                                 fffc09cf
+                 _Interrupt_CMT3
+                                 fffc0a07
+0010 interrupt_dmac
+     SECTION=P
+                 _Interrupt_DMAC0
+                                 fffc0a3f
+                 _Interrupt_DMAC1
+                                 fffc0a59
+                 _Interrupt_DMAC2
+                                 fffc0a73
+                 _Interrupt_DMAC3
+                                 fffc0a8d
+0011 interrupt_iic
+     SECTION=P
+                 _Interrupt_IIC_ICEEI0
+                                 fffc0aa7
+                 _Interrupt_IIC_ICEEI1
+                                 fffc0b74
+                 _Interrupt_IIC_ICRXI0
+                                 fffc0b77
+                 _Interrupt_IIC_ICRXI1
+                                 fffc0ce5
+                 _Interrupt_IIC_ICTXI0
+                                 fffc0ce8
+                 _Interrupt_IIC_ICTXI1
+                                 fffc0df2
+                 _Interrupt_IIC_ICTEI0
+                                 fffc0df5
+                 _Interrupt_IIC_ICTEI1
+                                 fffc0e3a
+     SECTION=W
+     SECTION=W_1
+     SECTION=W_2
+0012 interrupt_intc
+     SECTION=P
+                 _Interrupt_IRQ0
+                                 fffc0e3d
+                 _Interrupt_IRQ1
+                                 fffc0e57
+                 _Interrupt_IRQ2
+                                 fffc0e71
+                 _Interrupt_IRQ3
+                                 fffc0e8b
+                 _Interrupt_IRQ4
+                                 fffc0ea5
+                 _Interrupt_IRQ5
+                                 fffc0ebf
+                 _Interrupt_IRQ6
+                                 fffc0ed9
+                 _Interrupt_IRQ7
+                                 fffc0ef3
+                 _Interrupt_IRQ8
+                                 fffc0f0d
+                 _Interrupt_IRQ9
+                                 fffc0f27
+                 _Interrupt_IRQ10
+                                 fffc0f41
+                 _Interrupt_IRQ11
+                                 fffc0f5b
+                 _Interrupt_IRQ12
+                                 fffc0f75
+                 _Interrupt_IRQ13
+                                 fffc0f8f
+                 _Interrupt_IRQ14
+                                 fffc0fa9
+                 _Interrupt_IRQ15
+                                 fffc0fc3
+                 _Interrupt_SWINT
+                                 fffc0fdd
+                 _Interrupt_BRK
+                                 fffc0ff7
+                 _Excep_PrivilegedInst
+                                 fffc1162 0012(ffffffd0:FIXEDVECT)
+                 _Excep_UndefinedInst
+                                 fffc117c 0012(ffffffdc:FIXEDVECT)
+                 _Excep_FloatingPoint
+                                 fffc1196 0012(ffffffe4:FIXEDVECT)
+                 _Interrupt_NMI
+                                 fffc11b0 0012(fffffff8:FIXEDVECT)
+                 _Dummy
+                                 fffc11ca 0012(ffffffd4:FIXEDVECT)
+                                          0012(ffffffd8:FIXEDVECT)
+                                          0012(ffffffe0:FIXEDVECT)
+                                          0012(ffffffe8:FIXEDVECT)
+                                          0012(ffffffec:FIXEDVECT)
+                                          0012(fffffff0:FIXEDVECT)
+                                          0012(fffffff4:FIXEDVECT)
+     SECTION=FIXEDVECT
+                 _Fixed_Vectors
+                                 ffffffd0
+     SECTION=W
+     SECTION=W_1
+     SECTION=W_2
+0013 Interrupt_MTU2
+     SECTION=P
+                 _Interrupt_MTU0_TGIA0
+                                 fffc11cb
+                 _Interrupt_MTU1_TGIA1
+                                 fffc11e5
+                 _Interrupt_MTU2_TGIA2
+                                 fffc11ff
+                 _Interrupt_MTU3_TGIA3
+                                 fffc1219
+                 _Interrupt_MTU4_TGIA4
+                                 fffc1233
+                 _Interrupt_MTU6_TGIA6
+                                 fffc124d
+                 _Interrupt_MTU7_TGIA7
+                                 fffc1267
+                 _Interrupt_MTU8_TGIA8
+                                 fffc1281
+                 _Interrupt_MTU9_TGIA9
+                                 fffc129b
+                 _Interrupt_MTU10_TGIA10
+                                 fffc12b5
+                 _Interrupt_MTU0_TGIB0
+                                 fffc12cf
+                 _Interrupt_MTU1_TGIB1
+                                 fffc12e9
+                 _Interrupt_MTU2_TGIB2
+                                 fffc1303
+                 _Interrupt_MTU3_TGIB3
+                                 fffc131d
+                 _Interrupt_MTU4_TGIB4
+                                 fffc1337
+                 _Interrupt_MTU6_TGIB6
+                                 fffc1351
+                 _Interrupt_MTU7_TGIB7
+                                 fffc136b
+                 _Interrupt_MTU8_TGIB8
+                                 fffc1385
+                 _Interrupt_MTU9_TGIB9
+                                 fffc139f
+                 _Interrupt_MTU10_TGIB10
+                                 fffc13b9
+                 _Interrupt_MTU0_TGIC0
+                                 fffc13d3
+                 _Interrupt_MTU3_TGIC3
+                                 fffc13ed
+                 _Interrupt_MTU4_TGIC4
+                                 fffc1407
+                 _Interrupt_MTU6_TGIC6
+                                 fffc1421
+                 _Interrupt_MTU9_TGIC9
+                                 fffc143b
+                 _Interrupt_MTU10_TGIC10
+                                 fffc1455
+                 _Interrupt_MTU0_TGID0
+                                 fffc146f
+                 _Interrupt_MTU3_TGID3
+                                 fffc1489
+                 _Interrupt_MTU4_TGID4
+                                 fffc14a3
+                 _Interrupt_MTU6_TGID6
+                                 fffc14bd
+                 _Interrupt_MTU9_TGID9
+                                 fffc14d7
+                 _Interrupt_MTU10_TGID10
+                                 fffc14f1
+                 _Interrupt_MTU0_TGIE0
+                                 fffc150b
+                 _Interrupt_MTU6_TGIE6
+                                 fffc1525
+                 _Interrupt_MTU0_TGIF0
+                                 fffc153f
+                 _Interrupt_MTU6_TGIF6
+                                 fffc1559
+                 _Interrupt_MTU0_TCIV0
+                                 fffc1573
+                 _Interrupt_MTU1_TCIV1
+                                 fffc158d
+                 _Interrupt_MTU2_TCIV2
+                                 fffc15a7
+                 _Interrupt_MTU3_TCIV3
+                                 fffc15c1
+                 _Interrupt_MTU4_TCIV4
+                                 fffc15db
+                 _Interrupt_MTU6_TCIV6
+                                 fffc15f5
+                 _Interrupt_MTU7_TCIV7
+                                 fffc160f
+                 _Interrupt_MTU8_TCIV8
+                                 fffc1629
+                 _Interrupt_MTU9_TCIV9
+                                 fffc1643
+                 _Interrupt_MTU10_TCIV10
+                                 fffc165d
+                 _Interrupt_MTU1_TCIU1
+                                 fffc1677
+                 _Interrupt_MTU2_TCIU2
+                                 fffc1691
+                 _Interrupt_MTU7_TCIU7
+                                 fffc16ab
+                 _Interrupt_MTU8_TCIU8
+                                 fffc16c5
+                 _Interrupt_MTU5_TGIU5
+                                 fffc16df
+                 _Interrupt_MTU11_TGIU11
+                                 fffc16f9
+                 _Interrupt_MTU5_TGIV5
+                                 fffc1713
+                 _Interrupt_MTU11_TGIV11
+                                 fffc172d
+                 _Interrupt_MTU5_TGIW5
+                                 fffc1747
+                 _Interrupt_MTU11_TGIW11
+                                 fffc1761
+0014 interrupt_not_rpdl
+     SECTION=P
+                 _Interrupt_FIFERR
+                                 fffc177b
+                 _Interrupt_FRDYI
+                                 fffc177e
+                 _Interrupt_EINT
+                                 fffc1781
+                 _Interrupt_D0FIFO0
+                                 fffc1784
+                 _Interrupt_D1FIFO0
+                                 fffc1787
+                 _Interrupt_USBI0
+                                 fffc178a
+                 _Interrupt_USBR0
+                                 fffc178d
+                 _Interrupt_D0FIFO1
+                                 fffc1790
+                 _Interrupt_D1FIFO1
+                                 fffc1793
+                 _Interrupt_USBI1
+                                 fffc1796
+                 _Interrupt_USBR1
+                                 fffc1799
+                 _Interrupt_ERS0
+                                 fffc179c
+                 _Interrupt_RXF0
+                                 fffc179f
+                 _Interrupt_TXF0
+                                 fffc17a2
+                 _Interrupt_RXM0
+                                 fffc17a5
+                 _Interrupt_TXM0
+                                 fffc17a8
+0015 interrupt_poe
+     SECTION=P
+                 _Interrupt_OEI1
+                                 fffc17ab
+                 _Interrupt_OEI2
+                                 fffc17c5
+                 _Interrupt_OEI3
+                                 fffc17df
+                 _Interrupt_OEI4
+                                 fffc17f9
+0016 interrupt_sci
+     SECTION=P
+                 _Interrupt_SCI0_ERI0
+                                 fffc1813
+                 _Interrupt_SCI1_ERI1
+                                 fffc1835
+                 _Interrupt_SCI2_ERI2
+                                 fffc1857
+                 _Interrupt_SCI3_ERI3
+                                 fffc1879
+                 _Interrupt_SCI5_ERI5
+                                 fffc189b
+                 _Interrupt_SCI6_ERI6
+                                 fffc18bd
+                 _Interrupt_SCI0_RXI0
+                                 fffc18df
+                 _Interrupt_SCI1_RXI1
+                                 fffc198f
+                 _Interrupt_SCI2_RXI2
+                                 fffc1a41
+                 _Interrupt_SCI3_RXI3
+                                 fffc1af3
+                 _Interrupt_SCI5_RXI5
+                                 fffc1ba5
+                 _Interrupt_SCI6_RXI6
+                                 fffc1c57
+                 _Interrupt_SCI0_TXI0
+                                 fffc1d09
+                 _Interrupt_SCI1_TXI1
+                                 fffc1da3
+                 _Interrupt_SCI2_TXI2
+                                 fffc1e3d
+                 _Interrupt_SCI3_TXI3
+                                 fffc1ed7
+                 _Interrupt_SCI5_TXI5
+                                 fffc1f71
+                 _Interrupt_SCI6_TXI6
+                                 fffc200b
+                 _Interrupt_SCI0_TEI0
+                                 fffc20a5
+                 _Interrupt_SCI1_TEI1
+                                 fffc20cc
+                 _Interrupt_SCI2_TEI2
+                                 fffc20f3
+                 _Interrupt_SCI3_TEI3
+                                 fffc211a
+                 _Interrupt_SCI5_TEI5
+                                 fffc2141
+                 _Interrupt_SCI6_TEI6
+                                 fffc2168
+0017 interrupt_spi
+     SECTION=P
+                 _Interrupt_RSPI0_SPEI0
+                                 fffc218f
+                 _Interrupt_RSPI1_SPEI1
+                                 fffc21a9
+                 _Interrupt_RSPI0_SPRI0
+                                 fffc21c3
+                 _Interrupt_RSPI1_SPRI1
+                                 fffc22dd
+                 _Interrupt_RSPI0_SPTI0
+                                 fffc23fb
+                 _Interrupt_RSPI1_SPTI1
+                                 fffc2527
+                 _Interrupt_RSPI0_SPII0
+                                 fffc2653
+                 _Interrupt_RSPI1_SPII1
+                                 fffc2677
+0018 interrupt_tmr
+     SECTION=P
+                 _Interrupt_TMR0_CMA
+                                 fffc269b
+                 _Interrupt_TMR0_CMB
+                                 fffc26b5
+                 _Interrupt_TMR0_OV
+                                 fffc26fd
+                 _Interrupt_TMR1_CMA
+                                 fffc2717
+                 _Interrupt_TMR1_CMB
+                                 fffc2731
+                 _Interrupt_TMR1_OV
+                                 fffc2767
+                 _Interrupt_TMR2_CMA
+                                 fffc2781
+                 _Interrupt_TMR2_CMB
+                                 fffc279b
+                 _Interrupt_TMR2_OV
+                                 fffc27e3
+                 _Interrupt_TMR3_CMA
+                                 fffc27fd
+                 _Interrupt_TMR3_CMB
+                                 fffc2817
+                 _Interrupt_TMR3_OV
+                                 fffc284d
+0019 interrupt_wdt
+     SECTION=P
+                 _Interrupt_WDT
+                                 fffc2867
+0020 lcd_graphics
+     SECTION=B_1
+                 _buffer
+                                 00000010 0020(fffc2955:P)
+                 _raster1
+                                 00000350 0020(fffc2d9e:P)
+                                          0021(fffc3324:P)
+     SECTION=B
+                 _dtc_spi0_transfer_data
+                                 00000acc 0020(fffc28b5:P)
+                                          0020(fffc291b:P)
+                                          0020(fffc2d46:P)
+                                          0020(fffc2da4:P)
+     SECTION=$ADDR_B_15000
+                 _dtc_vector_table
+                                 00015000 0020(fffc2885:P)
+                                          0020(fffc2893:P)
+     SECTION=P
+                 _init_LCD_Graphics
+                                 fffc2881 0021(fffc323a:P)
+                 _refresh_LCD
+                                 fffc2994 0021(fffc332b:P)
+                 _insert_Sprite
+                                 fffc2de4 0021(fffc3302:P)
+                                          0021(fffc331f:P)
+                 _remove_Sprite
+                                 fffc312f 0021(fffc325c:P)
+                                          0021(fffc3279:P)
+                                          0021(fffc340f:P)
+                                          0021(fffc342c:P)
+     SECTION=C_2
+     SECTION=D_2
+     SECTION=R_2
+0021 main
+     SECTION=B_1
+                 _image_buffer
+                                 00000680 0021(fffc324e:P)
+     SECTION=B_2
+                 _ch2_control_parms
+                                 00000a62 0021(fffc3227:P)
+                                          0021(fffc3286:P)
+                                          0021(fffc32bf:P)
+                                          0021(fffc3433:P)
+                                          0021(fffc3450:P)
+     SECTION=B
+                 _theBall
+                                 00000adc 0021(fffc31d6:P)
+                                          0021(fffc3261:P)
+                                          0021(fffc3307:P)
+                                          0021(fffc3414:P)
+                 _fpuBall
+                                 00000aec 0021(fffc31ba:P)
+                                          0021(fffc323f:P)
+                                          0021(fffc32ea:P)
+                                          0021(fffc33f7:P)
+                 _fpuOps
+                                 00000afc 0021(fffc32a2:P)
+                 _swOps
+                                 00000b00 0021(fffc327e:P)
+                 _totalFpuOps
+                                 00000b04 0021(fffc337f:P)
+                                          0021(fffc33e5:P)
+                 _totalSwOps
+                                 00000b08 0021(fffc336d:P)
+                                          0021(fffc33ee:P)
+                 _speedup
+                                 00000b0c 0021(fffc3375:P)
+                 _totalSpeedup
+                                 00000b10 0021(fffc33d4:P)
+                 _ch2_create_parms
+                                 00000b14 0021(fffc31f4:P)
+                                          0021(fffc31fe:P)
+                                          0021(fffc3456:P)
+     SECTION=R
+                 _iterations
+                                 00001244 0021(fffc338b:P)
+                                          0021(fffc33dc:P)
+                 _timerStopped
+                                 00001248 0021(fffc329c:P)
+                                          0021(fffc346d:P)
+     SECTION=P
+                 _main
+                                 fffc31aa 0022(fffc05d6:PResetPRG)
+     SECTION=D
+0022 resetprg
+     SECTION=PResetPRG
+                 _PowerON_Reset_PC
+                                 fffc0591 0012(fffffffc:FIXEDVECT)
+     SECTION=SI
+     SECTION=SU
+     SECTION=C$VECT
+0023 sbrk
+     SECTION=P
+                 _sbrk
+                                 fffc3475
+     SECTION=D
+     SECTION=B
+     SECTION=R
+0024 sprite_images
+     SECTION=R_1
+                 _Rectangle_image
+                                 00000a11 0024(00001254:R)
+                 _Triangle_image
+                                 00000a19 0024(0000125c:R)
+                 _Square_LG_image
+                                 00000a1f 0024(00001264:R)
+                 _Circle_image
+                                 00000a33 0024(0000126c:R)
+                 _FilledCircle_image
+                                 00000a47 0024(00001274:R)
+                 _SmallCircle_image
+                                 00000a5b 0024(0000127c:R)
+     SECTION=R
+                 _Rectangle
+                                 00001250
+                 _Triangle
+                                 00001258
+                 _Square_LG
+                                 00001260
+                 _Circle
+                                 00001268
+                 _FilledCircle
+                                 00001270
+                 _SmallCircle
+                                 00001278 0021(fffc31b2:P)
+                                          0024(00001280:R)
+                 _sprite
+                                 00001280
+     SECTION=D
+     SECTION=D_1
+0025 switch
+     SECTION=R_1
+                 _gSwitchFlag
+                                 00000a61 0025(fffc3496:P)
+                                          0025(fffc3571:P)
+                                          0025(fffc3595:P)
+                                          0025(fffc35ff:P)
+                                          0025(fffc3623:P)
+                                          0025(fffc368d:P)
+                                          0025(fffc36af:P)
+                                          0025(fffc36f6:P)
+     SECTION=R
+                 _gSwitchStandbyReady
+                                 00001284 0025(fffc349f:P)
+                                          0025(fffc35b0:P)
+                                          0025(fffc363e:P)
+                                          0025(fffc36ca:P)
+                                          0025(fffc3703:P)
+                 _gSwitchPressCallbackFunc
+                                 00001288 0025(fffc34e7:P)
+                                          0025(fffc3579:P)
+                                          0025(fffc3607:P)
+                                          0025(fffc3695:P)
+                 _gSwitchReleaseCallbackFunc
+                                 0000128c 0025(fffc34f0:P)
+                                          0025(fffc359f:P)
+                                          0025(fffc362d:P)
+                                          0025(fffc36b9:P)
+     SECTION=P
+                 _InitialiseSwitchInterrupts
+                                 fffc3492 0004(fffc07f2:P)
+                                          0004(fffc08f3:P)
+                 _SetSwitchPressCallback
+                                 fffc34e5
+                 _SetSwitchReleaseCallback
+                                 fffc34ee
+                 _ControlSwitchInterrupts
+                                 fffc34f7
+                 _SW1_InterruptCB
+                                 fffc354a 0025(fffc34a8:P)
+                 _SW2_InterruptCB
+                                 fffc35d8 0025(fffc34bc:P)
+                 _SW3_InterruptCB
+                                 fffc3666 0025(fffc34ce:P)
+                 _SwitchDebounceCB
+                                 fffc36f2 0025(fffc35bd:P)
+                                          0025(fffc364b:P)
+                                          0025(fffc36d7:P)
+     SECTION=D
+     SECTION=D_1
+0026 globals_ADC_10
+     SECTION=B_1
+                 _rpdl_adcsr0_copy
+                                 000009c0 0055(fffc734a:P)
+                 _rpdl_adcsr1_copy
+                                 000009c1 0055(fffc7359:P)
+     SECTION=B
+                 _rpdl_ADC_10_callback_func
+                                 00000f6c 0006(fffc08fd:P)
+                                          0006(fffc0917:P)
+     SECTION=C_1
+                 _rpdl_ADC_10_div_value
+                                 fffc0000
+0027 globals_ADC_12
+     SECTION=B_1
+                 _rpdl_adcsr_store
+                                 000009c2
+     SECTION=B
+                 _rpdl_ADC_12_callback_func
+                                 00000f74 0007(fffc0931:P)
+0028 globals_BSC
+     SECTION=B
+                 _rpdl_BSC_callback_func
+                                 00000f78 0008(fffc094b:P)
+0029 globals_CMT
+     SECTION=B_1
+                 _rpdl_CMT_one_shot
+                                 000009c3 0009(fffc0965:P)
+                                          0009(fffc099d:P)
+                                          0009(fffc09d5:P)
+                                          0009(fffc0a0d:P)
+                                          0040(fffc3acd:P)
+     SECTION=B
+                 _rpdl_CMT_callback_func
+                                 00000f7c 0009(fffc0983:P)
+                                          0009(fffc09bb:P)
+                                          0009(fffc09f3:P)
+                                          0009(fffc0a2b:P)
+                                          0040(fffc3a60:P)
+     SECTION=C_2
+                 _rpdl_CMT_div_value
+                                 fffc002c 0040(fffc3a01:P)
+0030 globals_DMAC
+     SECTION=B
+                 _rpdl_DMAC_callback_func
+                                 00000f8c 0010(fffc0a45:P)
+                                          0010(fffc0a5f:P)
+                                          0010(fffc0a79:P)
+                                          0010(fffc0a93:P)
+0031 globals_IIC
+     SECTION=B_1
+                 _rpdl_IIC_stop
+                                 000009c7 0011(fffc0e00:P)
+                 _rpdl_IIC_current_state
+                                 000009c8 0011(fffc0ae2:P)
+                                          0011(fffc0aed:P)
+                                          0011(fffc0af8:P)
+                                          0011(fffc0b0b:P)
+                                          0011(fffc0b26:P)
+                                          0011(fffc0b7f:P)
+                                          0011(fffc0c33:P)
+                                          0011(fffc0c72:P)
+                                          0011(fffc0cee:P)
+                                          0011(fffc0e12:P)
+                 _rpdl_IIC_next_state
+                                 000009c9 0011(fffc0ac1:P)
+                 _rpdl_IIC_slave_address_lower
+                                 000009ca 0011(fffc0ad2:P)
+                                          0011(fffc0d0a:P)
+                 _rpdl_IIC_slave_address_upper
+                                 000009cb 0011(fffc0afe:P)
+                                          0011(fffc0d17:P)
+                 _rpdl_IIC_detected_address
+                                 000009cc 0056(fffc74a5:P)
+                 _rpdl_IIC_rx_transfer_method
+                                 000009cd 0011(fffc0c21:P)
+                 _rpdl_IIC_rx_dmac_channel
+                                 000009ce 0011(fffc0c52:P)
+                 _rpdl_IIC_tx_dmac_channel
+                                 000009cf
+     SECTION=B_2
+                 _rpdl_IIC_rx_counter
+                                 00000a78 0011(fffc0bbe:P)
+                                          0011(fffc0c8a:P)
+                 _rpdl_IIC_tx_counter
+                                 00000a7a 0011(fffc0b35:P)
+                                          0011(fffc0d33:P)
+                                          0011(fffc0d98:P)
+                 _rpdl_IIC_rx_threshold
+                                 00000a7c 0011(fffc0b9b:P)
+                                          0011(fffc0bc4:P)
+                                          0011(fffc0c90:P)
+                 _rpdl_IIC_tx_threshold
+                                 00000a7e 0011(fffc0d39:P)
+                                          0011(fffc0d9e:P)
+     SECTION=B
+                 _rpdl_IIC_tx_data_pointer
+                                 00000f9c 0011(fffc0d60:P)
+                                          0011(fffc0db4:P)
+                                          0011(fffc0dbf:P)
+                 _rpdl_IIC_tx_data_start
+                                 00000fa0 0011(fffc0dac:P)
+                 _rpdl_IIC_rx_data_pointer
+                                 00000fa4 0011(fffc0bfb:P)
+                                          0011(fffc0cad:P)
+                 _rpdl_IIC_rx_data_start
+                                 00000fa8
+                 _rpdl_IIC_callback_func
+                                 00000fac 0011(fffc0b41:P)
+                                          0011(fffc0b5e:P)
+                                          0011(fffc0ccf:P)
+                                          0011(fffc0d85:P)
+                                          0011(fffc0dde:P)
+                                          0011(fffc0e26:P)
+     SECTION=C_1
+                 _rpdl_IIC_div_value
+                                 fffc0004
+0032 globals_INTC
+     SECTION=B_1
+                 _rpdl_INTC_brk_command
+                                 000009d0 0012(fffc0fff:P)
+                                          0012(fffc1153:P)
+                                          0040(fffc3af3:P)
+                                          0040(fffc3b3f:P)
+                                          0040(fffc3b56:P)
+                 _rpdl_INTC_brk_data8
+                                 000009d1 0012(fffc10ed:P)
+                                          0012(fffc1108:P)
+                                          0012(fffc112d:P)
+                                          0040(fffc3aed:P)
+     SECTION=B
+                 _rpdl_INTC_saved_isp
+                                 00000fb0 0012(fffc10e5:P)
+     SECTION=R
+                 _rpdl_INTC_callback_func
+                                 00001290 0012(fffc0e43:P)
+                                          0012(fffc0e5d:P)
+                                          0012(fffc0e77:P)
+                                          0012(fffc0e91:P)
+                                          0012(fffc0eab:P)
+                                          0012(fffc0ec5:P)
+                                          0012(fffc0edf:P)
+                                          0012(fffc0ef9:P)
+                                          0012(fffc0f13:P)
+                                          0012(fffc0f2d:P)
+                                          0012(fffc0f47:P)
+                                          0012(fffc0f61:P)
+                                          0012(fffc0f7b:P)
+                                          0012(fffc0f95:P)
+                                          0012(fffc0faf:P)
+                                          0012(fffc0fc9:P)
+                                          0012(fffc0fe3:P)
+                                          0012(fffc1168:P)
+                                          0012(fffc1182:P)
+                                          0012(fffc119c:P)
+                                          0012(fffc11b6:P)
+                                          0045(fffc403d:P)
+                                          0045(fffc40ba:P)
+     SECTION=D
+0033 globals_MTU2
+     SECTION=B_1
+                 _rpdl_MTU2_tmdr_copy
+                                 000009d2 0050(fffc6593:P)
+                                          0050(fffc65c0:P)
+                 _rpdl_MTU2_toer_copy
+                                 000009d4 0050(fffc659b:P)
+                                          0050(fffc65c8:P)
+                 _rpdl_MTU2_tiorh_copy
+                                 000009d6 0050(fffc65a3:P)
+                                          0050(fffc65d0:P)
+                 _rpdl_MTU2_tiorl_copy
+                                 000009d8 0050(fffc65ac:P)
+                                          0050(fffc65da:P)
+     SECTION=B
+                 _rpdl_MTU2_func1_callback_func
+                                 00000fb4 0013(fffc11d1:P)
+                                          0013(fffc11eb:P)
+                                          0013(fffc1205:P)
+                                          0013(fffc121f:P)
+                                          0013(fffc1239:P)
+                                          0013(fffc1253:P)
+                                          0013(fffc126d:P)
+                                          0013(fffc1287:P)
+                                          0013(fffc12a1:P)
+                                          0013(fffc12bb:P)
+                                          0013(fffc16e5:P)
+                                          0013(fffc16ff:P)
+                                          0050(fffc5c25:P)
+                 _rpdl_MTU2_func2_callback_func
+                                 00000fe4 0013(fffc12d5:P)
+                                          0013(fffc12ef:P)
+                                          0013(fffc1309:P)
+                                          0013(fffc1323:P)
+                                          0013(fffc133d:P)
+                                          0013(fffc1357:P)
+                                          0013(fffc1371:P)
+                                          0013(fffc138b:P)
+                                          0013(fffc13a5:P)
+                                          0013(fffc13bf:P)
+                                          0013(fffc1719:P)
+                                          0013(fffc1733:P)
+                                          0050(fffc5c35:P)
+                 _rpdl_MTU2_func3_callback_func
+                                 00001014 0013(fffc13d9:P)
+                                          0013(fffc13f3:P)
+                                          0013(fffc140d:P)
+                                          0013(fffc1427:P)
+                                          0013(fffc1441:P)
+                                          0013(fffc145b:P)
+                                          0013(fffc174d:P)
+                                          0013(fffc1767:P)
+                                          0050(fffc5c40:P)
+                 _rpdl_MTU2_func4_callback_func
+                                 00001044 0013(fffc1475:P)
+                                          0013(fffc148f:P)
+                                          0013(fffc14a9:P)
+                                          0013(fffc14c3:P)
+                                          0013(fffc14dd:P)
+                                          0013(fffc14f7:P)
+                                          0050(fffc5c4b:P)
+                 _rpdl_MTU2_TGRE_callback_func
+                                 00001074 0013(fffc1511:P)
+                                          0013(fffc152b:P)
+                                          0050(fffc5c56:P)
+                 _rpdl_MTU2_TGRF_callback_func
+                                 000010a4 0013(fffc1545:P)
+                                          0013(fffc155f:P)
+                                          0050(fffc5c61:P)
+                 _rpdl_MTU2_Overflow_callback_func
+                                 000010d4 0013(fffc1579:P)
+                                          0013(fffc1593:P)
+                                          0013(fffc15ad:P)
+                                          0013(fffc15c7:P)
+                                          0013(fffc15e1:P)
+                                          0013(fffc15fb:P)
+                                          0013(fffc1615:P)
+                                          0013(fffc162f:P)
+                                          0013(fffc1649:P)
+                                          0013(fffc1663:P)
+                                          0050(fffc5c6c:P)
+                 _rpdl_MTU2_Underflow_callback_func
+                                 00001104 0013(fffc167d:P)
+                                          0013(fffc1697:P)
+                                          0013(fffc16b1:P)
+                                          0013(fffc16cb:P)
+                                          0050(fffc5c77:P)
+     SECTION=C_1
+                 _rpdl_MTU2_TSTR_mask
+                                 fffc000c 0049(fffc4365:P)
+                                          0049(fffc473a:P)
+0034 globals_POE
+     SECTION=B
+                 _rpdl_POE_callback_func
+                                 00001134 0015(fffc17b1:P)
+                                          0015(fffc17cb:P)
+                                          0015(fffc17e5:P)
+                                          0015(fffc17ff:P)
+0035 globals_SCI
+     SECTION=B_1
+                 _rpdl_SCI_tx_using_irq
+                                 000009da 0016(fffc1d0f:P)
+                                          0016(fffc1da9:P)
+                                          0016(fffc1e43:P)
+                                          0016(fffc1edd:P)
+                                          0016(fffc1f77:P)
+                                          0016(fffc2011:P)
+                 _rpdl_SCI_rx_using_irq
+                                 000009e1 0016(fffc18e5:P)
+                                          0016(fffc1995:P)
+                                          0016(fffc1a47:P)
+                                          0016(fffc1af9:P)
+                                          0016(fffc1bab:P)
+                                          0016(fffc1c5d:P)
+                 _rpdl_SCI_sync_simultaneous
+                                 000009e8
+                 _rpdl_SCI_MP_mode
+                                 000009ef 0016(fffc18f2:P)
+                                          0016(fffc19a2:P)
+                                          0016(fffc1a54:P)
+                                          0016(fffc1b06:P)
+                                          0016(fffc1bb8:P)
+                                          0016(fffc1c6a:P)
+                 _rpdl_SCI_MP_rx_stationID
+                                 000009f6 0016(fffc1908:P)
+                                          0016(fffc19b9:P)
+                                          0016(fffc1a6b:P)
+                                          0016(fffc1b1d:P)
+                                          0016(fffc1bcf:P)
+                                          0016(fffc1c81:P)
+     SECTION=B_2
+                 _rpdl_SCI_rx_counter
+                                 00000a80 0016(fffc194c:P)
+                                          0016(fffc19fd:P)
+                                          0016(fffc1aaf:P)
+                                          0016(fffc1b61:P)
+                                          0016(fffc1c13:P)
+                                          0016(fffc1cc5:P)
+                 _rpdl_SCI_tx_counter
+                                 00000a8e 0016(fffc1d35:P)
+                                          0016(fffc1d56:P)
+                                          0016(fffc1dcf:P)
+                                          0016(fffc1df0:P)
+                                          0016(fffc1e69:P)
+                                          0016(fffc1e8a:P)
+                                          0016(fffc1f03:P)
+                                          0016(fffc1f24:P)
+                                          0016(fffc1f9d:P)
+                                          0016(fffc1fbe:P)
+                                          0016(fffc2037:P)
+                                          0016(fffc2058:P)
+                 _rpdl_SCI_rx_threshold
+                                 00000a9c 0016(fffc1944:P)
+                                          0016(fffc19f5:P)
+                                          0016(fffc1aa7:P)
+                                          0016(fffc1b59:P)
+                                          0016(fffc1c0b:P)
+                                          0016(fffc1cbd:P)
+                 _rpdl_SCI_tx_threshold
+                                 00000aaa 0016(fffc1d1b:P)
+                                          0016(fffc1db5:P)
+                                          0016(fffc1e4f:P)
+                                          0016(fffc1ee9:P)
+                                          0016(fffc1f83:P)
+                                          0016(fffc201d:P)
+     SECTION=B
+                 _rpdl_SCI_tx_string_pointer
+                                 00001144 0016(fffc1d27:P)
+                                          0016(fffc1d43:P)
+                                          0016(fffc1dc1:P)
+                                          0016(fffc1ddd:P)
+                                          0016(fffc1e5b:P)
+                                          0016(fffc1e77:P)
+                                          0016(fffc1ef5:P)
+                                          0016(fffc1f11:P)
+                                          0016(fffc1f8f:P)
+                                          0016(fffc1fab:P)
+                                          0016(fffc2029:P)
+                                          0016(fffc2045:P)
+                 _rpdl_SCI_rx_string_pointer
+                                 00001160 0016(fffc193a:P)
+                                          0016(fffc19eb:P)
+                                          0016(fffc1a9d:P)
+                                          0016(fffc1b4f:P)
+                                          0016(fffc1c01:P)
+                                          0016(fffc1cb3:P)
+                 _rpdl_SCI_rx_string_start
+                                 0000117c
+                 _rpdl_SCI_TX_End_callback_func
+                                 00001198 0016(fffc1d7c:P)
+                                          0016(fffc1d8f:P)
+                                          0016(fffc1e16:P)
+                                          0016(fffc1e29:P)
+                                          0016(fffc1eb0:P)
+                                          0016(fffc1ec3:P)
+                                          0016(fffc1f4a:P)
+                                          0016(fffc1f5d:P)
+                                          0016(fffc1fe4:P)
+                                          0016(fffc1ff7:P)
+                                          0016(fffc207e:P)
+                                          0016(fffc2091:P)
+                                          0016(fffc20b4:P)
+                                          0016(fffc20db:P)
+                                          0016(fffc2102:P)
+                                          0016(fffc2129:P)
+                                          0016(fffc2150:P)
+                                          0016(fffc2177:P)
+                 _rpdl_SCI_RX_End_callback_func
+                                 000011b4 0016(fffc191c:P)
+                                          0016(fffc197b:P)
+                                          0016(fffc19cd:P)
+                                          0016(fffc1a2d:P)
+                                          0016(fffc1a7f:P)
+                                          0016(fffc1adf:P)
+                                          0016(fffc1b31:P)
+                                          0016(fffc1b91:P)
+                                          0016(fffc1be3:P)
+                                          0016(fffc1c43:P)
+                                          0016(fffc1c95:P)
+                                          0016(fffc1cf5:P)
+                 _rpdl_SCI_RX_Error_callback_func
+                                 000011d0 0016(fffc1819:P)
+                                          0016(fffc183b:P)
+                                          0016(fffc185d:P)
+                                          0016(fffc187f:P)
+                                          0016(fffc18a1:P)
+                                          0016(fffc18c3:P)
+     SECTION=C_1
+                 _rpdl_SCI_div_value
+                                 fffc0011
+0036 globals_SPI
+     SECTION=B_1
+                 _rpdl_SPI_method
+                                 000009fd 0017(fffc21cb:P)
+                                          0017(fffc22e5:P)
+                                          0017(fffc2403:P)
+                                          0017(fffc252f:P)
+                                          0054(fffc7137:P)
+                                          0054(fffc7162:P)
+                 _rpdl_SPI_tx_frame_counter
+                                 000009ff 0017(fffc2432:P)
+                                          0017(fffc2459:P)
+                                          0017(fffc248a:P)
+                                          0017(fffc24ad:P)
+                                          0017(fffc255e:P)
+                                          0017(fffc2585:P)
+                                          0017(fffc25b6:P)
+                                          0017(fffc25d9:P)
+                                          0054(fffc71dd:P)
+                 _rpdl_SPI_frame_total
+                                 00000a01 0017(fffc228d:P)
+                                          0017(fffc23aa:P)
+                                          0017(fffc24d5:P)
+                                          0017(fffc2601:P)
+                                          0054(fffc71f8:P)
+                 _rpdl_SPI_rx_frame_counter
+                                 00000a03 0017(fffc21f8:P)
+                                          0017(fffc221a:P)
+                                          0017(fffc2247:P)
+                                          0017(fffc2269:P)
+                                          0017(fffc2313:P)
+                                          0017(fffc2335:P)
+                                          0017(fffc2362:P)
+                                          0017(fffc2386:P)
+                                          0054(fffc71e8:P)
+     SECTION=B_2
+                 _rpdl_SPI_sequence_count
+                                 00000ab8 0017(fffc22a5:P)
+                                          0017(fffc23c3:P)
+                                          0017(fffc24eb:P)
+                                          0017(fffc2617:P)
+                                          0054(fffc71ba:P)
+                 _rpdl_SPI_tx_sequence_counter
+                                 00000abc 0017(fffc24e3:P)
+                                          0017(fffc260f:P)
+                                          0054(fffc71c7:P)
+                 _rpdl_SPI_rx_sequence_counter
+                                 00000ac0 0017(fffc229d:P)
+                                          0017(fffc23bb:P)
+                                          0054(fffc71d2:P)
+     SECTION=B
+                 _rpdl_SPI_tx_ptr
+                                 000011ec 0017(fffc2417:P)
+                                          0017(fffc2543:P)
+                                          0054(fffc71a1:P)
+                 _rpdl_SPI_rx_ptr
+                                 000011f4 0017(fffc21df:P)
+                                          0017(fffc22f9:P)
+                                          0054(fffc71ac:P)
+                 _rpdl_SPI_callback_func
+                                 000011fc 0017(fffc2195:P)
+                                          0017(fffc21af:P)
+                                          0017(fffc22c7:P)
+                                          0017(fffc23e5:P)
+                                          0017(fffc2511:P)
+                                          0017(fffc263d:P)
+                                          0017(fffc2663:P)
+                                          0017(fffc2687:P)
+                                          0054(fffc70f9:P)
+0037 globals_TMR
+     SECTION=B_1
+                 _rpdl_TMR_tcsr_setting
+                                 00000a05
+                 _rpdl_TMR_tccr8_setting
+                                 00000a09
+                 _rpdl_TMR_one_shot
+                                 00000a0d 0018(fffc26bb:P)
+                                          0018(fffc2737:P)
+                                          0018(fffc27a1:P)
+                                          0018(fffc281d:P)
+     SECTION=B_2
+                 _rpdl_TMR_tccr16_setting
+                                 00000ac4
+     SECTION=B
+                 _rpdl_TMR_Overflow_callback_func
+                                 00001204 0018(fffc2703:P)
+                                          0018(fffc276d:P)
+                                          0018(fffc27e9:P)
+                                          0018(fffc2853:P)
+                 _rpdl_TMR_CMA_callback_func
+                                 00001214 0018(fffc26a1:P)
+                                          0018(fffc271d:P)
+                                          0018(fffc2787:P)
+                                          0018(fffc2803:P)
+                 _rpdl_TMR_CMB_callback_func
+                                 00001224 0018(fffc26e9:P)
+                                          0018(fffc2753:P)
+                                          0018(fffc27cf:P)
+                                          0018(fffc2839:P)
+     SECTION=C_2
+                 _rpdl_TMR_div_value
+                                 fffc0034
+0038 globals_WDT
+     SECTION=B
+                 _rpdl_WDT_callback_func
+                                 00001234 0019(fffc286d:P)
+0039 R_CGC_SetAll
+     SECTION=P
+                 _R_CGC_SetAll
+                                 fffc373a 0004(fffc0714:P)
+                                          0004(fffc0813:P)
+0040 R_CMT_CreateOneShotAll
+     SECTION=P
+                 _R_CMT_CreateOneShotAll
+                                 fffc3938 0025(fffc35ca:P)
+                                          0025(fffc3658:P)
+                                          0025(fffc36e4:P)
+0041 R_DTC_ControlAll
+     SECTION=P
+                 _R_DTC_ControlAll
+                                 fffc3b7d 0020(fffc2929:P)
+                                          0020(fffc2d54:P)
+                                          0020(fffc2db2:P)
+0042 R_DTC_CreateAll
+     SECTION=P
+                 _R_DTC_CreateAll
+                                 fffc3cf5 0020(fffc28c5:P)
+0043 R_DTC_SetAll
+     SECTION=P
+                 _R_DTC_SetAll
+                                 fffc3e92 0020(fffc289a:P)
+0044 R_INTC_ControlExtInterruptAll
+     SECTION=P
+                 _R_INTC_ControlExtInterruptAll
+                                 fffc3eda 0025(fffc3504:P)
+                                          0025(fffc3512:P)
+                                          0025(fffc3524:P)
+                                          0025(fffc3532:P)
+                                          0025(fffc353e:P)
+                                          0025(fffc356c:P)
+                                          0025(fffc3590:P)
+                                          0025(fffc35fa:P)
+                                          0025(fffc361e:P)
+                                          0025(fffc3688:P)
+                                          0025(fffc36aa:P)
+                                          0025(fffc3712:P)
+                                          0025(fffc3721:P)
+                                          0025(fffc372e:P)
+0045 R_INTC_CreateExtInterruptAll
+     SECTION=P
+                 _R_INTC_CreateExtInterruptAll
+                                 fffc3fa2 0025(fffc34b3:P)
+                                          0025(fffc34c7:P)
+                                          0025(fffc34d9:P)
+     SECTION=W
+     SECTION=W_1
+     SECTION=W_2
+0046 R_INTC_GetExtInterruptStatusAll
+     SECTION=P
+                 _R_INTC_GetExtInterruptStatusAll
+                                 fffc4128 0025(fffc3556:P)
+                                          0025(fffc35e4:P)
+                                          0025(fffc3672:P)
+0047 R_IO_PORT_SetAll
+     SECTION=P
+                 _R_IO_PORT_SetAll
+                                 fffc4229 0004(fffc0729:P)
+                                          0004(fffc073a:P)
+                                          0004(fffc0749:P)
+                                          0004(fffc0759:P)
+                                          0004(fffc0772:P)
+                                          0004(fffc078e:P)
+                                          0004(fffc07ab:P)
+                                          0004(fffc07c7:P)
+                                          0004(fffc07e2:P)
+                                          0004(fffc082b:P)
+                                          0004(fffc083c:P)
+                                          0004(fffc084b:P)
+                                          0004(fffc085b:P)
+                                          0004(fffc0874:P)
+                                          0004(fffc0890:P)
+                                          0004(fffc08ad:P)
+                                          0004(fffc08c9:P)
+                                          0004(fffc08e4:P)
+0048 R_IO_PORT_WriteRegisterAll
+     SECTION=P
+                 _R_IO_PORT_WriteRegisterAll
+                                 fffc42f4 0004(fffc0763:P)
+                                          0004(fffc077e:P)
+                                          0004(fffc079b:P)
+                                          0004(fffc07b8:P)
+                                          0004(fffc07d3:P)
+                                          0004(fffc0865:P)
+                                          0004(fffc0880:P)
+                                          0004(fffc089d:P)
+                                          0004(fffc08ba:P)
+                                          0004(fffc08d5:P)
+0049 R_MTU2_ControlChannelAll
+     SECTION=P
+                 _R_MTU2_ControlChannelAll
+                                 fffc4302 0021(fffc3230:P)
+                                          0021(fffc3292:P)
+                                          0021(fffc32cb:P)
+                                          0021(fffc343f:P)
+                                          0021(fffc3463:P)
+     SECTION=W
+     SECTION=W_1
+     SECTION=W_2
+0050 R_MTU2_CreateAll
+     SECTION=P
+                 _R_MTU2_CreateAll
+                                 fffc4770 0021(fffc321e:P)
+     SECTION=W
+     SECTION=W_1
+     SECTION=W_2
+0051 R_MTU2_SetAll
+     SECTION=P
+                 _R_MTU2_SetAll
+                                 fffc69c8 0021(fffc31ed:P)
+0052 R_SPI_CommandAll
+     SECTION=P
+                 _R_SPI_CommandAll
+                                 fffc6a32 0020(fffc28f8:P)
+0053 R_SPI_CreateAll
+     SECTION=P
+                 _R_SPI_CreateAll
+                                 fffc6bc9 0020(fffc28e3:P)
+0054 R_SPI_TransferAll
+     SECTION=P
+                 _R_SPI_TransferAll
+                                 fffc706d 0020(fffc2949:P)
+                                          0020(fffc2d79:P)
+                                          0020(fffc2dd1:P)
+0055 utilities_ADC_10
+     SECTION=P
+                 _rpdl_ADC_10_Start
+                                 fffc7348 0012(fffc101a:P)
+                                          0012(fffc1021:P)
+                 _rpdl_ADC_10_ModifyIEN
+                                 fffc7361
+0056 utilities_IIC
+     SECTION=P
+                 _rpdl_IIC_EnableTxIEN
+                                 fffc73a3
+                 _rpdl_IIC_EnableRxIEN
+                                 fffc73ee
+                 _rpdl_IIC_DisableIEN
+                                 fffc7439
+                 _Send_IIC_byte
+                                 fffc7470
+                 _Store_detected_address
+                                 fffc7495 0011(fffc0c17:P)
+                                          0011(fffc0d80:P)
+0057 utilities_MTU2
+     SECTION=P
+                 _R_MTU2_Create_load_defaults
+                                 fffc74bc 0021(fffc31f9:P)
+                 _rpdl_MTU2_DisableIER
+                                 fffc74f7 0050(fffc5c06:P)
+                 _rpdl_MTU2_EnableTGRAIER
+                                 fffc76ca 0050(fffc68d7:P)
+                 _rpdl_MTU2_EnableTGRBIER
+                                 fffc77bd 0050(fffc68e9:P)
+                 _rpdl_MTU2_EnableTGRCIER
+                                 fffc78b0 0050(fffc6930:P)
+                 _rpdl_MTU2_EnableTGRDIER
+                                 fffc7950 0050(fffc6942:P)
+                 _rpdl_MTU2_EnableTGREIER
+                                 fffc79f0 0050(fffc6954:P)
+                 _rpdl_MTU2_EnableTGRFIER
+                                 fffc7a26 0050(fffc695f:P)
+                 _rpdl_MTU2_EnableTGRUIER
+                                 fffc7a5c 0050(fffc6995:P)
+                 _rpdl_MTU2_EnableTGRVIER
+                                 fffc7a92 0050(fffc69a7:P)
+                 _rpdl_MTU2_EnableTGRWIER
+                                 fffc7ac8 0050(fffc69b9:P)
+                 _rpdl_MTU2_EnableTCIVIER
+                                 fffc7afe 0050(fffc6908:P)
+                 _rpdl_MTU2_EnableTCIUIER
+                                 fffc7bf1 0050(fffc6979:P)
+     SECTION=W
+     SECTION=W_1
+     SECTION=W_2
+0058 __COM_ADDf_SUBf
+     SECTION=P
+                 __COM_SUBf
+                                 fffc7c5c
+                 __COM_ADDf
+                                 fffc7c63 0001(fffc05e4:P)
+                                          0001(fffc05ee:P)
+                                          0001(fffc0667:P)
+0059 __COM_CMPGTf
+     SECTION=P
+                 __COM_CMPGTf
+                                 fffc7d7c 0001(fffc0622:P)
+                                          0001(fffc0646:P)
+0060 __COM_CMPLTf
+     SECTION=P
+                 __COM_CMPLTf
+                                 fffc7dc3 0001(fffc05fe:P)
+                                          0001(fffc0652:P)
+0061 __initsct
+     SECTION=P
+                 __INITSCT
+                                 fffc7e0a 0022(fffc05b0:PResetPRG)
+     SECTION=C$BSEC
+     SECTION=C$DSEC
+0062 globals_CGC
+     SECTION=B
+                 _rpdl_CGC_f_pclk
+                                 00001238 0039(fffc3745:P)
+                                          0040(fffc3989:P)
+                                          0053(fffc6f77:P)
+                 _rpdl_CGC_f_iclk
+                                 0000123c 0039(fffc374b:P)
+                 _rpdl_CGC_f_bclk
+                                 00001240 0039(fffc3751:P)
+                                          0039(fffc386c:P)
+                                          0039(fffc387c:P)
+     SECTION=C_1
+                 _rpdl_CGC_xCLK_mul_value
+                                 fffc0015 0039(fffc37cb:P)
+0063 utilities_CMT
+     SECTION=P
+                 _rpdl_CMT_ModifyIEN
+                                 fffc7e54 0040(fffc3a48:P)
+                                          0040(fffc3ac8:P)
+0064 utilities_INTC
+     SECTION=P
+                 _rpdl_INTC_ModifyIEN
+                                 fffc7ed5 0044(fffc3f20:P)
+                                          0044(fffc3f87:P)
+                                          0044(fffc3f94:P)
+                                          0045(fffc405c:P)
+                                          0045(fffc411b:P)
+                 _rpdl_INTC_ReadIEN
+                                 fffc7f16 0044(fffc3f79:P)
+                 _SetIRQPin
+                                 fffc7f37 0045(fffc4098:P)
+0065 utilities_SPI
+     SECTION=P
+                 _rpdl_SPI_EnableErrorIEN
+                                 fffc8004 0054(fffc7193:P)
+                                          0054(fffc720c:P)
+                 _rpdl_SPI_EnableIdleIEN
+                                 fffc8023 0054(fffc7199:P)
+                 _rpdl_SPI_EnableTransferIEN
+                                 fffc8042 0054(fffc717b:P)
+                 _rpdl_SPI_DisableIEN
+                                 fffc8084 0053(fffc6f92:P)
+                                          0054(fffc70b7:P)

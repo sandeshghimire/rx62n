@@ -1,0 +1,9 @@
+-cpu=rx600
+-lang=c
+-include="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\I2C\I2C"
+-include="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\I2C\I2C\RPDL"
+-output=obj="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\I2C\I2C\Debug\Interrupt_INTC.obj"
+-debug
+-speed
+"C:\Users\Sandesh\Documents\GitHub\rx62n\projects\I2C\I2C\RPDL\Interrupt_INTC.c"
+-nologo

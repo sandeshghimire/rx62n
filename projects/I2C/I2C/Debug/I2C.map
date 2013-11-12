@@ -1,0 +1,94 @@
+Optimizing Linkage Editor (V.10.02.00.000)        11-Nov-2013 21:43:53
+
+*** Options ***
+
+-subcommand=C:\Users\Sandesh\Documents\GitHub\rx62n\projects\I2C\I2C\Debug\I2C.hlk
+-noprelink
+-rom=D=R,D_1=R_1,D_2=R_2
+-nomessage
+-list="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\I2C\I2C\Debug\I2C.map"
+-nooptimize
+-start=B_1,R_1,B_2,R_2,B,R,SU,SI/010,C_1,C_2,C,L*,C$*,D*,PResetPRG,P,W*/0FFFC0000,FIXEDVECT/0FFFFFFD0
+-nologo
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\I2C\I2C\Debug\accelerometer.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\I2C\I2C\Debug\dbsct.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\I2C\I2C\Debug\hwsetup.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\I2C\I2C\Debug\id_code.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\I2C\I2C\Debug\Interrupt_ADC_10.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\I2C\I2C\Debug\Interrupt_CMT.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\I2C\I2C\Debug\Interrupt_DMAC.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\I2C\I2C\Debug\Interrupt_IIC.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\I2C\I2C\Debug\Interrupt_INTC.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\I2C\I2C\Debug\Interrupt_not_RPDL.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\I2C\I2C\Debug\Interrupt_SCI.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\I2C\I2C\Debug\Interrupt_TMR.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\I2C\I2C\Debug\Interrupt_WDT.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\I2C\I2C\Debug\lcd.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\I2C\I2C\Debug\main_iic_master.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\I2C\I2C\Debug\resetprg.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\I2C\I2C\Debug\sbrk.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\I2C\I2C\Debug\switch.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\I2C\I2C\Debug\thermal_sensor.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\I2C\I2C\Debug\YRDKRX62N_RSPI_API.obj"
+-library="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\I2C\I2C\RPDL\RX62N_library.lib"
+-library="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\I2C\I2C\GlyphLib_v2.lib"
+-library="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\I2C\I2C\Debug\I2C.lib"
+-output="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\I2C\I2C\Debug\I2C.abs"
+-end
+
+*** Error information ***
+
+*** Mapping List ***
+
+SECTION                            START      END         SIZE   ALIGN
+
+B_1
+                                  00000010  00000057        48   1
+R_1
+                                  00000058  000000a9        52   1
+B_2
+                                  000000aa  00000105        5c   2
+R_2
+                                  00000106  00000107         2   2
+B
+                                  00000108  0000064f       548   4
+R
+                                  00000650  00000cfb       6ac   4
+SU
+                                  00000cfc  00000ffb       300   4
+SI
+                                  00000ffc  000010fb       100   4
+C_1
+                                  fffc0000  fffc0ae5       ae6   1
+C_2
+                                  fffc0ae6  fffc0cfd       218   2
+C
+                                  fffc0d00  fffc0d9b        9c   4
+L
+                                  fffc0d9c  fffc0e28        8d   4
+C$DSEC
+                                  fffc0e2c  fffc0e4f        24   4
+C$BSEC
+                                  fffc0e50  fffc0e67        18   4
+C$VECT
+                                  fffc0e68  fffc1267       400   4
+D
+                                  fffc1268  fffc1913       6ac   4
+D_2
+                                  fffc1914  fffc1915         2   2
+D_1
+                                  fffc1916  fffc1967        52   1
+PResetPRG
+                                  fffc1968  fffc19b1        4a   1
+P
+                                  fffc19b2  fffca815      8e64   1
+W_1
+                                  fffca816  fffca837        22   1
+W_2
+                                  fffca838  fffca877        40   2
+W
+                                  fffca878  fffca878         0   4
+$ADDR_C_FFFFFFA0
+                                  ffffffa0  ffffffaf        10   1
+FIXEDVECT
+                                  ffffffd0  ffffffff        30   4

@@ -1,0 +1,19 @@
+[HIMDBVersion]
+2.0
+[DATABASE_VERSION]
+"1.2" 
+[CURRENT_PROJECT]
+"UART" 
+[GENERAL_DATA]
+[BREAKPOINTS]
+[OPEN_WORKSPACE_FILES]
+"C:\Users\Sandesh\Documents\GitHub\rx62n\projects\UART\UART\main_uart.c" 
+"C:\Users\Sandesh\Documents\GitHub\rx62n\projects\UART\UART\resetprg.c" 
+"C:\Users\Sandesh\Documents\GitHub\rx62n\projects\UART\UART\RPDL\Interrupt_SCI.c" 
+[WORKSPACE_FILE_STATES]
+"C:\Users\Sandesh\Documents\GitHub\rx62n\projects\UART\UART\RPDL\Interrupt_SCI.c" 26 26 1030 336 0 1 
+"C:\Users\Sandesh\Documents\GitHub\rx62n\projects\UART\UART\main_uart.c" -8 -31 1206 535 1 2 
+"C:\Users\Sandesh\Documents\GitHub\rx62n\projects\UART\UART\resetprg.c" 0 0 1228 336 0 0 
+[LOADED_PROJECTS]
+"UART" 
+[END]

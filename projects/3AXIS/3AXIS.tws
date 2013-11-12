@@ -1,0 +1,21 @@
+[HIMDBVersion]
+2.0
+[DATABASE_VERSION]
+"1.2" 
+[CURRENT_PROJECT]
+"3AXIS" 
+[GENERAL_DATA]
+[BREAKPOINTS]
+[OPEN_WORKSPACE_FILES]
+"C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Ball.c" 
+"C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\main.c" 
+"C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\resetprg.c" 
+"C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\RPDL\interrupt_exdmac.c" 
+[WORKSPACE_FILE_STATES]
+"C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Ball.c" 78 78 1232 340 0 1 
+"C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\RPDL\interrupt_exdmac.c" -8 -31 1217 535 1 3 
+"C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\main.c" 104 104 1232 340 0 2 
+"C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\resetprg.c" 52 52 1228 336 0 0 
+[LOADED_PROJECTS]
+"3AXIS" 
+[END]

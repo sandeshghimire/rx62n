@@ -1,0 +1,8 @@
+-cpu=rx600
+-lang=c
+-include="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ADC2\ADC2"
+-include="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ADC2\ADC2\RPDL"
+-output=obj="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ADC2\ADC2\Debug\Interrupt_BSC.obj"
+-debug
+"C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ADC2\ADC2\RPDL\Interrupt_BSC.c"
+-nologo

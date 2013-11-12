@@ -1,0 +1,4 @@
+-cpu=rx600
+-output="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\I2C\I2C\Debug\I2C.lib"
+-optimize=0
+-head=runtime,stdio,stdlib,string

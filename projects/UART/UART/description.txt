@@ -1,0 +1,2 @@
+Asynchronous Serial
+The application demonstrates use of the SCI in asynchronous mode by communicating to a serial port on your PC.

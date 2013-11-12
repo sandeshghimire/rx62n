@@ -1,0 +1,100 @@
+Optimizing Linkage Editor (V.10.02.00.000)        10-Nov-2013 22:30:44
+
+*** Options ***
+
+-subcommand=C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ADC2\ADC2\Debug\ADC2.hlk
+-noprelink
+-rom=D=R,D_1=R_1,D_2=R_2
+-nomessage
+-list="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ADC2\ADC2\Debug\ADC2.map"
+-nooptimize
+-start=B_1,R_1,B_2,R_2,B,R,SU,SI/010,C_1,C_2,C,L*,C$*,D*,PResetPRG,P,W*/0FFFC0000,FIXEDVECT/0FFFFFFD0
+-nologo
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ADC2\ADC2\Debug\ADCrepeat.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ADC2\ADC2\Debug\dbsct.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ADC2\ADC2\Debug\hwsetup.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ADC2\ADC2\Debug\id_code.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ADC2\ADC2\Debug\Interrupt_ADC_10.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ADC2\ADC2\Debug\Interrupt_ADC_12.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ADC2\ADC2\Debug\Interrupt_BSC.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ADC2\ADC2\Debug\Interrupt_CMT.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ADC2\ADC2\Debug\Interrupt_DMAC.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ADC2\ADC2\Debug\Interrupt_EXDMAC.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ADC2\ADC2\Debug\Interrupt_IIC.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ADC2\ADC2\Debug\Interrupt_INTC.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ADC2\ADC2\Debug\Interrupt_MTU2.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ADC2\ADC2\Debug\Interrupt_not_RPDL.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ADC2\ADC2\Debug\Interrupt_POE.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ADC2\ADC2\Debug\Interrupt_RTC.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ADC2\ADC2\Debug\Interrupt_SCI.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ADC2\ADC2\Debug\Interrupt_SPI.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ADC2\ADC2\Debug\Interrupt_TMR.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ADC2\ADC2\Debug\Interrupt_WDT.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ADC2\ADC2\Debug\lcd.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ADC2\ADC2\Debug\main_adc_repeat.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ADC2\ADC2\Debug\resetprg.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ADC2\ADC2\Debug\sbrk.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ADC2\ADC2\Debug\switch.obj"
+-input="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ADC2\ADC2\Debug\YRDKRX62N_RSPI_API.obj"
+-library="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ADC2\ADC2\RPDL\RX62N_library.lib"
+-library="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ADC2\ADC2\Debug\ADC2.lib"
+-library="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ADC2\ADC2\GlyphLib_v2.lib"
+-output="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ADC2\ADC2\Debug\ADC2.abs"
+-end
+
+*** Error information ***
+
+*** Mapping List ***
+
+SECTION                            START      END         SIZE   ALIGN
+
+B_1
+                                  00000010  00000060        51   1
+R_1
+                                  00000061  000000b2        52   1
+B_2
+                                  000000b4  00000113        60   2
+R_2
+                                  00000114  00000115         2   2
+B
+                                  00000118  000007ff       6e8   4
+R
+                                  00000800  00000eab       6ac   4
+SU
+                                  00000eac  000011ab       300   4
+SI
+                                  000011ac  000012ab       100   4
+C_1
+                                  fffc0000  fffc0af7       af8   1
+C_2
+                                  fffc0af8  fffc0d0f       218   2
+C
+                                  fffc0d10  fffc0dab        9c   4
+L
+                                  fffc0dac  fffc0e18        6d   4
+C$DSEC
+                                  fffc0e1c  fffc0e3f        24   4
+C$BSEC
+                                  fffc0e40  fffc0e57        18   4
+C$VECT
+                                  fffc0e58  fffc1257       400   4
+D
+                                  fffc1258  fffc1903       6ac   4
+D_2
+                                  fffc1904  fffc1905         2   2
+D_1
+                                  fffc1906  fffc1957        52   1
+PResetPRG
+                                  fffc1958  fffc19a1        4a   1
+P
+                                  fffc19a2  fffc7d44      63a3   1
+W_1
+                                  fffc7d45  fffc7d66        22   1
+W_2
+                                  fffc7d68  fffc7d7b        14   2
+W
+                                  fffc7d7c  fffc7d7c         0   4
+$ADDR_C_FFFFFFA0
+                                  ffffffa0  ffffffaf        10   1
+FIXEDVECT
+                                  ffffffd0  ffffffff        30   4

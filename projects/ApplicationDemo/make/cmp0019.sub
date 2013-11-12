@@ -1,0 +1,8 @@
+-cpu=rx600
+-lang=c
+-include="..\ApplicationDemo"
+-include="..\ApplicationDemo\RPDL"
+-output=obj="..\ApplicationDemo\Debug\hwsetup.obj"
+-debug
+"..\ApplicationDemo\hwsetup.c"
+-nologo

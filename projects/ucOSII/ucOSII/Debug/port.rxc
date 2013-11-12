@@ -1,0 +1,11 @@
+-cpu=rx600
+-lang=c
+-include="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ucOSII\ucOSII"
+-include="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ucOSII\ucOSII\RPDL"
+-include="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ucOSII\ucOSII\FreeRTOS"
+-include="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ucOSII\ucOSII\FreeRTOS\Source\include"
+-include="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ucOSII\ucOSII\FreeRTOS\Source\portable\Renesas\RX600"
+-output=obj="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ucOSII\ucOSII\Debug\port.obj"
+-debug
+"C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ucOSII\ucOSII\FreeRTOS\Source\portable\Renesas\RX600\port.c"
+-nologo

@@ -1,0 +1,11 @@
+-cpu=rx600
+-lang=c
+-include="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS"
+-include="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\RPDL"
+-output=obj="C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\Debug\switch.obj"
+-debug
+-optimize=max
+-speed
+-goptimize
+"C:\Users\Sandesh\Documents\GitHub\rx62n\projects\3AXIS\3AXIS\switch.c"
+-nologo

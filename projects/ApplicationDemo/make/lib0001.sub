@@ -1,0 +1,3 @@
+-cpu=rx600
+-output="..\ApplicationDemo\Debug\ApplicationDemo.lib"
+-head=runtime,stdio,stdlib

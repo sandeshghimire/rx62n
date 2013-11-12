@@ -1,0 +1,21 @@
+[HIMDBVersion]
+2.0
+[DATABASE_VERSION]
+"1.2" 
+[CURRENT_PROJECT]
+"ADC1" 
+[GENERAL_DATA]
+[BREAKPOINTS]
+[OPEN_WORKSPACE_FILES]
+"C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ADC1\ADC1\lcd.c" 
+"C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ADC1\ADC1\main_adc_oneshot.c" 
+"C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ADC1\ADC1\resetprg.c" 
+"C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ADC1\ADC1\YRDKRX62N_RSPI_API.c" 
+[WORKSPACE_FILE_STATES]
+"C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ADC1\ADC1\YRDKRX62N_RSPI_API.c" 52 52 1228 336 0 2 
+"C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ADC1\ADC1\lcd.c" 78 78 1228 336 0 3 
+"C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ADC1\ADC1\main_adc_oneshot.c" 26 26 1228 336 0 1 
+"C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ADC1\ADC1\resetprg.c" 0 0 1228 336 0 0 
+[LOADED_PROJECTS]
+"ADC1" 
+[END]

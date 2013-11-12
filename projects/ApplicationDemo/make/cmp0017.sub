@@ -1,0 +1,8 @@
+-cpu=rx600
+-lang=c
+-include="..\ApplicationDemo"
+-include="..\ApplicationDemo\RPDL"
+-output=obj="..\ApplicationDemo\Debug\YRDKRX62N_RSPI_API.obj"
+-debug
+"..\ApplicationDemo\YRDKRX62N_RSPI_API.c"
+-nologo

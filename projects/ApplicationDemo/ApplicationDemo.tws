@@ -7,7 +7,23 @@
 [GENERAL_DATA]
 [BREAKPOINTS]
 [OPEN_WORKSPACE_FILES]
+"C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ApplicationDemo\ApplicationDemo\main.c" 
+"C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ApplicationDemo\ApplicationDemo\resetprg.c" 
+"C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ApplicationDemo\ApplicationDemo\RPDL\Interrupt_TMR.c" 
+"C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ApplicationDemo\ApplicationDemo\RPDL\Interrupt_WDT.c" 
+"C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ApplicationDemo\ApplicationDemo\RPDL\r_pdl_poe_RX62Nxx.h" 
+"C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ApplicationDemo\ApplicationDemo\YRDKRX62N.h" 
+"C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ApplicationDemo\ApplicationDemo\YRDKRX62N_RSPI_API.c" 
+"C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ApplicationDemo\ApplicationDemo\YRDKRX62N_RSPI_API.h" 
 [WORKSPACE_FILE_STATES]
+"C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ApplicationDemo\ApplicationDemo\RPDL\Interrupt_TMR.c" 0 0 1250 554 0 6 
+"C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ApplicationDemo\ApplicationDemo\RPDL\Interrupt_WDT.c" 130 130 1078 359 0 5 
+"C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ApplicationDemo\ApplicationDemo\RPDL\r_pdl_poe_RX62Nxx.h" 52 52 1078 359 0 2 
+"C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ApplicationDemo\ApplicationDemo\YRDKRX62N.h" 104 104 1078 359 0 4 
+"C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ApplicationDemo\ApplicationDemo\YRDKRX62N_RSPI_API.c" 26 26 1078 359 0 1 
+"C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ApplicationDemo\ApplicationDemo\YRDKRX62N_RSPI_API.h" 78 78 1078 359 0 3 
+"C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ApplicationDemo\ApplicationDemo\main.c" -8 -31 1250 535 1 0 
+"C:\Users\Sandesh\Documents\GitHub\rx62n\projects\ApplicationDemo\ApplicationDemo\resetprg.c" 0 0 1078 340 0 7 
 [LOADED_PROJECTS]
 "ApplicationDemo" 
 [END]
